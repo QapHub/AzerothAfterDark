@@ -2,7 +2,7 @@
 ## Title: |cfff2c46bAzeroth|r After Dark
 ## Notes: The latest WoW: Forever news, hotfixes and screenshots, right in game. Pops up on login when there's a new story. /aad
 ## Author: Azeroth After Dark
-## Version: 1.0.0
+## Version: 2026.11.17
 ## SavedVariables: AzerothAfterDarkDB
 ## IconTexture: Interface\AddOns\AzerothAfterDark\Media\logo
 ## X-Website: https://wow.afterdark.fm

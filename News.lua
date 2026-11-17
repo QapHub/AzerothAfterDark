@@ -1,7 +1,7 @@
 -- Azeroth After Dark news edition 2026-11-17. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1794934419,
+  generated = 1794934961,
   edition = "2026-11-17",
   stories = {
     {
@@ -373,6 +373,58 @@ AzerothAfterDarkNews = {
         {
           file = "news\\s4c4cc0a444-2",
           credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s57afa88314",
+      time = 1794698850,
+      category = "News",
+      headline = "New weekly Dire Maul quest pays level 60s up to 100 gold",
+      dek = "Gold is tight at 60, and this Booty Bay weekly hands out a satchel worth 10 to 100 gold every reset.",
+      body = { "Max-level characters have a fresh weekly gold source. Pix Xizzix in Booty Bay offers In Demand: Ancient Elven Curiosities once you hit level 60, and it sends you into Dire Maul to collect three items from three bosses.", "Turn it in and you get an Undermine Satchel. Inside is one vendor item, anywhere from a 10 gold Gold Nugget up to a 100 gold Gold Ring. Not a fortune, but at 60 quests stop paying gold and mount training and dual spec still want their cut.", "Not everyone is cheering. Some players on Reddit say they would rather keep retail-style weekly chores out of Forever. Still, a free roll at 100 gold is hard to ignore." },
+      bullets = { "Pick up: Pix Xizzix in Booty Bay, level 60 required.", "Dire Maul: Felvine Seed from Azzlin the Wildshaper.", "Dire Maul: Earthstone Diamond Pinky Ring from King Gordok, Ancient Memento from Prince Tortheldrin.", "Reward: Undermine Satchel with an item that vendors for 10, 20, 40 or 100 gold." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-players-can-now-earn-up-to-100-gold-a-week-from-one-quest/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s57afa88314-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s75ded4f5fb",
+      time = 1794682800,
+      category = "Guides",
+      headline = "Krol'dok Stronghold: six bosses inside the ogre capital",
+      dek = "The new level 40 to 45 dungeon in the Riverglades has big XP quests and strong plate tank gear, and you can ride mounts inside.",
+      body = { "Krol'dok Stronghold is a new level 40 to 45 dungeon in the Riverglades zone. It is huge, the capital of the Krol'dok ogres, backed by the Twilight's Hammer and Redridge gnolls. The good news: mounts work inside.", "Alliance has 5 dungeon quests and Horde has 4, each worth over 10,000 XP, but most sit at the end of long quest chains from the faction hubs. Bring 12 Iron Bars and 4 Thick Leather for Key Ingredients.", "Six bosses wait, ending with Overlord Mugg, who swaps weapons and leaps at players. Watch the Twilight Grunts on trash: their Bladestorm shreds groups when two or more are up." },
+      bullets = { "Bosses: Slavecrusher Grox, Twilight Commander Zarmok, War Handler Ashka, Nar'gurk, Bossman Toof, Overlord Mugg.", "Nar'gurk can Convert a player; get them to 50% health to break it.", "Quest rewards include Rock on Stick, Stick No Rock and Bigger Rock on Bigger Stick.", "Pack 12 Iron Bars and 4 Thick Leather for Key Ingredients." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s75ded4f5fb-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s75ded4f5fb-2",
+          credit = "Wowhead",
+          caption = "Krol'dok Stronghold Quest WoW Forever",
+        },
+        {
+          file = "news\\s75ded4f5fb-3",
+          credit = "Wowhead",
+          caption = "Krol'dok Stronghold Trash WoW Forever",
         },
       },
     },
