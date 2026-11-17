@@ -1,7 +1,7 @@
 -- Azeroth After Dark news edition 2026-11-17. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1794934961,
+  generated = 1794935207,
   edition = "2026-11-17",
   stories = {
     {
@@ -388,6 +388,10 @@ AzerothAfterDarkNews = {
         {
           name = "Icy Veins",
           url = "https://www.icy-veins.com/wow-forever/news/wow-forever-players-can-now-earn-up-to-100-gold-a-week-from-one-quest/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
         },
       },
       images = {
