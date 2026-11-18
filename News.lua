@@ -1,9 +1,147 @@
--- Azeroth After Dark news edition 2026-11-17. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-18. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1794935207,
-  edition = "2026-11-17",
+  generated = 1795006908,
+  edition = "2026-11-18",
   stories = {
+    {
+      id = "s761f6b15a2",
+      time = 1794998132,
+      category = "News",
+      headline = "Blackmaw Hold exploiters lose their gold and get suspended",
+      dek = "Ran Blackmaw Hold a few times? You're fine. Blizzard is only going after the couple hundred players who farmed the bug.",
+      body = { "Blizzard has now dealt with the Blackmaw Hold gold farm. Over a weekend, a big pack of non-elite mobs in the dungeon was dropping full elite loot. A hotfix closed that off, and then the team went looking at who had cashed in.", "They found a couple hundred players worldwide who knew it was a bug and farmed only that pack. Those accounts got an economy lock first. Now Blizzard is taking back every bit of gold earned from the bug, vendored drops included, and suspending the worst offenders.", "If you ran the dungeon a few times and the extra loot just showed up, Blizzard says you did nothing wrong and your account is safe. Reported penalties go from economy restrictions and short suspensions all the way up to permanent closures.", "Not everyone is happy, though. Streamer and AWC caster Ziqo, who showed off more than 4,000 gold from the farm, says he got a 7-day suspension. Some players say they got longer bans for less, and Blizzard hasn't explained why the penalties differ." },
+      bullets = { "Gold earned from the bug is being removed, including gold from vendoring the bugged drops.", "Account suspensions are going to significant abusers, roughly a couple hundred players worldwide.", "Players who ran the dungeon casually and got the extra loot will not be punished.", "Ziqo says he got a 7-day suspension, and players are arguing over whether the penalties are consistent." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/account-suspensions-and-gold-removal-for-blackmaw-hold-exploit-abusers/",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/blackmaw-hold-bans-spark-outrage-as-ziqo-receives-7-day-suspension/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s761f6b15a2-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s761f6b15a2-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s761f6b15a2-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "sbc6fc5a437",
+      time = 1794973427,
+      category = "Hotfixes",
+      headline = "Hotfixes: UBRS gets tougher, Shen'dralas quests eased, Soulforge reworked",
+      dek = "Planning a UBRS run tonight? Bring a full, focused group, because a bug that kept its enemies weak has been fixed.",
+      body = { "The November 17 hotfixes are a big batch. Top of the list: a bug in Upper Blackrock Spire left enemy health and damage well below what was intended. With that fixed, Blizzard says UBRS once again takes a full group of careful players.", "Questing in Shen'dralas should be a lot less painful. Several quest drops and objectives are now shared with your party, a few enemies cast their abilities less often, and the Agamaggan's Blood quest no longer sends you into a dungeon to finish it.", "Paladin tanks are getting a new look at their gear. Strength is gone from the Soulforge set, and every piece now has more Intellect and some Spell Power, as Blizzard leans into Spell Power for Paladin tank damage. Campers, professions and your ignore list all got fixes too." },
+      bullets = { "Upper Blackrock Spire: enemy health and damage fixed after being much lower than intended.", "Paladin: Soulforge Armor loses Strength and gains Spell Power and more Intellect on every piece.", "Shen'dralas: Agamaggan's Blood can now be finished in the elite area outside Razorfen Downs.", "Shen'dralas: the Heart of Crystal drop and the Powering the Pylons objectives are now shared with your party.", "Shen'dralas: Spectral Iron Ore spawns more often and miners can now track it.", "Shaman: Flurry no longer loses stacks when Windfury Totem attacks land.", "Might of Stormwind and Warchief's Blessing: now cancel on death and no longer apply to non-players.", "Camping: you can no longer sleep on the Cozy Sleeping Bag while mounted, and it now shows a Resting aura.", "PvP: Alterac Valley quests need level 58, and you can no longer mount in the Warsong Gulch starting rooms.", "Items: Escape Plan now deals 54 to 102 damage, and Darkmoon Card: Blue Dragon procs 3% of the time (was 2%).", "Blacksmithing: Bronze Mace is now Bind on Equip and can go in the Transmog Collection.", "Interface: your ignore list now stays saved when you log out." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/ubrs-buffs-profession-and-camping-improvements-quest-fixes-wow-forever-hotfixes-november-17th/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\sbc6fc5a437-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\sbc6fc5a437-2",
+          credit = "Wowhead",
+          caption = "combat image",
+        },
+        {
+          file = "news\\sbc6fc5a437-3",
+          credit = "Wowhead",
+          caption = "crating image",
+        },
+      },
+    },
+    {
+      id = "s621879efcf",
+      time = 1794970559,
+      category = "Guides",
+      headline = "Hunters: hidden Mount Hyjal cat has Broken Tooth's 1.0 attack speed",
+      dek = "Want the fastest pet attack speed without camping Broken Tooth for hours? There's a new cat to tame from level 57.",
+      body = { "Here's one most Hunters have never heard of. A player spotted a green and orange striped cat in a Horde auction house, asked the owner where it came from, and the secret got out. The best part: it has a 1.0 attack speed, the fastest any pet can have.", "Before now, that speed meant camping Broken Tooth, the Badlands rare elite with a 6 to 8 hour respawn. The new cat is easier to get and easier to tame. You need to be level 57, though 58 makes the tame easier.", "Go to Felblood Scar in Mount Hyjal and search the pools of green slime near the white crystals for a Corrupted Cat Figurine, a gray item that barely pokes out of the ground. Take it to the lantern on the hillside above Mourning's Rest, around 27.0, 63.6, and use the lantern to spawn the cat." },
+      bullets = { "Attack speed: 1.0, the same as Broken Tooth.", "Level 57 minimum, and 58 is easier for taming.", "Find the Corrupted Cat Figurine in the slime pools at Felblood Scar, Mount Hyjal.", "Use the lantern above Mourning's Rest, around 27.0, 63.6, to spawn the cat." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/hunters-can-get-their-hands-on-a-never-before-seen-pet-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s621879efcf-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s621879efcf-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "seeb20a197d",
+      time = 1794960290,
+      category = "News",
+      headline = "Forever tops 15 million characters in its first two weeks",
+      dek = "You've got company out there: Blizzard's two-week numbers show record crowds, and Arugal has killed more players than any other boss.",
+      body = { "Blizzard has shared stats from the first two weeks of WoW: Forever, and they are big. Players have created more than 15 million characters and finished nearly 1.5 billion quests.", "Holly Longdale also said more people are playing Forever each week than WoW has seen in 15 years. If the roads feel crowded, now you know why.", "As for which boss has done the most damage to all of us, it's Archmage Arugal in Shadowfang Keep, with players dying close to 197 million times overall." },
+      bullets = { "Characters created: 15,160,147.", "Quests completed: 1,480,343,357.", "Guilds created: 140,764, and parties formed: 71,309,889.", "Deadliest boss: Archmage Arugal in Shadowfang Keep." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
+        },
+      },
+      images = {},
+    },
+    {
+      id = "s75f5166628",
+      time = 1794935474,
+      category = "Guides",
+      headline = "Linken's Boots of Iron let you walk along the sea floor",
+      dek = "Underwater quest coming up? These level 38 boots from the Drowned City let you walk underwater. Just bring water breathing.",
+      body = { "A player found a fun secret: Linken's Boots of Iron let you walk underwater. They look like plain level 38 boots, and the tooltip calls them useless, but the effect is real. It's a nod to Link's Iron Boots from Zelda.", "They drop in the Drowned City, from one of the bosses and from a few rare elites. Mounts don't work with them, but Tauren Plainsrunning does. The catch: on dry land they're so heavy that you can only walk, not run.", "Be careful with them. Without some way to breathe underwater, getting back to the surface can take a while, and you can't take the boots off during combat." },
+      bullets = { "Linken's Boots of Iron: level 38 boots that let you walk underwater.", "They drop from a Drowned City boss and several rare elites.", "Out of the water you can only walk, and they can't be removed in combat." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/forever-has-some-awesome-underwater-walking-boots/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s75f5166628-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
     {
       id = "s13b85724cd",
       time = 1794929902,
@@ -129,6 +267,10 @@ AzerothAfterDarkNews = {
         {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/the-scarlet-hearthstone-might-be-wow-forevers-coolest-new-toy/",
         },
       },
       images = {
@@ -284,151 +426,6 @@ AzerothAfterDarkNews = {
           file = "news\\se606ae027e-2",
           credit = "Wowhead",
           caption = "Bag Bar",
-        },
-      },
-    },
-    {
-      id = "sa35357f5a0",
-      time = 1794759079,
-      category = "Guides",
-      headline = "How to get the Alcaz Operative Insignia Defias disguise toy",
-      dek = "Six Fractured Insignias make a 10-minute Defias look; you can earn one free per character and buy the rest.",
-      body = { "The Alcaz Operative Insignia turns you into a Defias Operative from Alcaz Island Prison for 10 minutes, with a 30-minute cooldown. You make it by combining 6 Fractured Insignias, which sell for around 15 to 20 gold each on the Auction House.", "To earn one, run Alcaz Prison in Dustwallow Marsh but skip The Questioner. Mason Connery, at the end, asks you to kill the Questioner and bring the key to free him. He then gives More Valuable Than Gold, sending you to Connery's Trunk upstairs in the Moonbrook inn in Westfall for a Document Box.", "Turn the box in to Renzik in Stormwind, Nazgrel in Orgrimmar or Rix Xizzix in Booty Bay for a Fractured Insignia, or sell it for 25 gold. The quest is not repeatable, so the other five come from the Auction House, friends or alts." },
-      bullets = { "Combine 6 Fractured Insignias to create the toy.", "One free Insignia per character from the Alcaz Prison quest chain.", "Document Box can also be sold to a vendor for 25 gold." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/join-the-defias-brothehood-with-the-alcaz-operative-insignia-toy/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sa35357f5a0-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sa35357f5a0-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sa35357f5a0-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s1709408bc4",
-      time = 1794754800,
-      category = "News",
-      headline = "Old Season of Discovery secret in Blackrock Depths has new toys",
-      dek = "Parkour fans can grab the Traveler's Symbols toy and Premo's uniform from a hidden Blackrock Depths platform.",
-      body = { "SeventeenUncles found that the Blackrock Depths spot that once held the Rainbow Generator quest in Season of Discovery now offers new rewards. Traveler's Symbols is a toy that puts up a signpost of your choice for an hour, visible to other players.", "Student Fodder and Premo's Poise-Demanding Uniform, a shirt that turns you to face your target, are in the same place. Head to the platform east of the Ring, take the bridge north over the lava, clear the Blazing Fireguards and Shadowforge Dwarves, then get ready for some parkour." },
-      bullets = { "Traveler's Symbols: place a signpost that lasts 1 hour.", "Premo's Poise-Demanding Uniform turns you to face your target on use." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383879/an-old-sod-secret-has-new-rewards-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s1709408bc4-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s1709408bc4-2",
-          credit = "Wowhead",
-          caption = "Sign Post",
-        },
-        {
-          file = "news\\s1709408bc4-3",
-          credit = "Wowhead",
-          caption = "Sign Post",
-        },
-      },
-    },
-    {
-      id = "s4c4cc0a444",
-      time = 1794706020,
-      category = "Hotfixes",
-      headline = "Dungeon XP cutoff loosened: now only 12+ levels over the enemy",
-      dek = "An overleveled tank or healer no longer zeroes the group's kill XP unless they are more than 12 levels above the mobs.",
-      body = { "Blizzard has walked back part of its new dungeon experience rule. The first version, added a day earlier, wiped out kill XP for the whole party whenever an enemy was trivial to any one member. Players pushed back hard, noting that dungeons span wide level ranges and that groups often want an overleveled tank or healer.", "Blizzard admitted the rule missed the mark. Now experience is only nullified when the highest-level player is more than 12 levels above the enemy. Instances already underway when the fix went out kept the old rule, so start a fresh run if you got caught by it." },
-      bullets = { "Dungeons: kill XP is zeroed only if a party member is more than 12 levels above the enemy.", "Before this, any enemy trivial to one party member gave the whole group no XP." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/level-difference-needed-to-remove-enemy-xp-in-dungeons-increased/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
-        },
-      },
-      images = {
-        {
-          file = "news\\s4c4cc0a444-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s4c4cc0a444-2",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s57afa88314",
-      time = 1794698850,
-      category = "News",
-      headline = "New weekly Dire Maul quest pays level 60s up to 100 gold",
-      dek = "Gold is tight at 60, and this Booty Bay weekly hands out a satchel worth 10 to 100 gold every reset.",
-      body = { "Max-level characters have a fresh weekly gold source. Pix Xizzix in Booty Bay offers In Demand: Ancient Elven Curiosities once you hit level 60, and it sends you into Dire Maul to collect three items from three bosses.", "Turn it in and you get an Undermine Satchel. Inside is one vendor item, anywhere from a 10 gold Gold Nugget up to a 100 gold Gold Ring. Not a fortune, but at 60 quests stop paying gold and mount training and dual spec still want their cut.", "Not everyone is cheering. Some players on Reddit say they would rather keep retail-style weekly chores out of Forever. Still, a free roll at 100 gold is hard to ignore." },
-      bullets = { "Pick up: Pix Xizzix in Booty Bay, level 60 required.", "Dire Maul: Felvine Seed from Azzlin the Wildshaper.", "Dire Maul: Earthstone Diamond Pinky Ring from King Gordok, Ancient Memento from Prince Tortheldrin.", "Reward: Undermine Satchel with an item that vendors for 10, 20, 40 or 100 gold." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-players-can-now-earn-up-to-100-gold-a-week-from-one-quest/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s57afa88314-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s75ded4f5fb",
-      time = 1794682800,
-      category = "Guides",
-      headline = "Krol'dok Stronghold: six bosses inside the ogre capital",
-      dek = "The new level 40 to 45 dungeon in the Riverglades has big XP quests and strong plate tank gear, and you can ride mounts inside.",
-      body = { "Krol'dok Stronghold is a new level 40 to 45 dungeon in the Riverglades zone. It is huge, the capital of the Krol'dok ogres, backed by the Twilight's Hammer and Redridge gnolls. The good news: mounts work inside.", "Alliance has 5 dungeon quests and Horde has 4, each worth over 10,000 XP, but most sit at the end of long quest chains from the faction hubs. Bring 12 Iron Bars and 4 Thick Leather for Key Ingredients.", "Six bosses wait, ending with Overlord Mugg, who swaps weapons and leaps at players. Watch the Twilight Grunts on trash: their Bladestorm shreds groups when two or more are up." },
-      bullets = { "Bosses: Slavecrusher Grox, Twilight Commander Zarmok, War Handler Ashka, Nar'gurk, Bossman Toof, Overlord Mugg.", "Nar'gurk can Convert a player; get them to 50% health to break it.", "Quest rewards include Rock on Stick, Stick No Rock and Bigger Rock on Bigger Stick.", "Pack 12 Iron Bars and 4 Thick Leather for Key Ingredients." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s75ded4f5fb-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s75ded4f5fb-2",
-          credit = "Wowhead",
-          caption = "Krol'dok Stronghold Quest WoW Forever",
-        },
-        {
-          file = "news\\s75ded4f5fb-3",
-          credit = "Wowhead",
-          caption = "Krol'dok Stronghold Trash WoW Forever",
         },
       },
     },
