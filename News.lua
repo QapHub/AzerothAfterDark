@@ -1,9 +1,142 @@
--- Azeroth After Dark news edition 2026-11-18. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-19. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795014704,
-  edition = "2026-11-18",
+  generated = 1795093305,
+  edition = "2026-11-19",
   stories = {
+    {
+      id = "s6bf70b7f60",
+      time = 1795051522,
+      category = "Guides",
+      headline = "Turn on in-world quest markers with one console command",
+      dek = "A yellow diamond can mark your quest goal right in the world, so you can skip the map and the extra addon.",
+      body = { "Because Forever runs on the Retail client, it already borrows plenty of modern questing help: objectives on the map, and mobs that show when you need them for a quest. One Retail extra is hidden, though, and you have to switch it on yourself.", "Type /console showInGameNavigation 1 into chat and a yellow diamond appears in the world over the quest you have selected. It points to objectives, specific destinations and turn-ins once a quest is done.", "It really shines when the goal is above or below you, since a flat map is bad at showing height. The diamond sits on the exact spot you need to reach." },
+      bullets = { "Command: /console showInGameNavigation 1", "Marks the selected quest's objective or turn-in directly in the world.", "Most useful when the target is on a different floor or elevation." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s6bf70b7f60-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s6bf70b7f60-2",
+          credit = "Wowhead",
+          caption = "Yellow Diamond",
+        },
+        {
+          file = "news\\s6bf70b7f60-3",
+          credit = "Wowhead",
+          caption = "Specific Item",
+        },
+      },
+    },
+    {
+      id = "s77a79e3149",
+      time = 1795031528,
+      category = "Guides",
+      headline = "Weekly gold quest sends level 60s into Blackrock Spire and Depths",
+      dek = "This week's Booty Bay quest swaps Dire Maul for a Blackrock run, and its satchel can hold up to 100 gold.",
+      body = { "After two weeks of Dire Maul, the level 60 weekly from Booty Bay has moved on. This week it is In Demand - Blackrock Legal Records, and it takes you through both Blackrock Spire and Blackrock Depths.", "You need three documents: one from General Drakkisath and one from Overlord Wyrmthalak in Blackrock Spire, plus the Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths. Hand them all to Pix Xizzix in Booty Bay.", "Like last week, the reward is an Undermine Satchel worth up to 100 gold, plus some crafting materials. It can also hold vendor items such as a Gold Ring that sells for 100g." },
+      bullets = { "Quest: In Demand - Blackrock Legal Records, picked up in Booty Bay at level 60.", "Bosses: General Drakkisath, Overlord Wyrmthalak, Emperor Thaurissan.", "Reward: Undermine Satchel with up to 100 gold and extra materials." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s77a79e3149-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s93db857673",
+      time = 1795028129,
+      category = "News",
+      headline = "Blizzard PvP video: Rank Points set your rank, Honor buys the gear",
+      dek = "Max rank and its raid-level epic weapons are in reach for everyone, around halfway through each PvP season.",
+      body = { "Blizzard has put out a video explaining how PvP works in Forever. The big change: Honor no longer decides your rank. You climb with Rank Points, and Honor is now just a currency for PvP gear and consumables.", "Rank Points come from daily and weekly PvP quests, weekly battlegrounds, the new Season's Journey quests and world PvP events like the Gurubashi Arena. The Season's Journey is the biggest source, with a new quest each week.", "Higher rank unlocks better rewards to spend Honor on: a faction tabard at Rank 1, rare armor that can be upgraded to epic from Rank 8, and epic weapons on par with raid gear at Rank 14. Missed weeks can be made up later in the season." },
+      bullets = { "Rank Points decide your PvP rank; Honor is spent on rewards.", "Season's Journey quests are the biggest Rank Point source, with catch-up for missed weeks.", "Rank 14 unlocks epic weapons comparable to raid gear.", "Max rank is expected around week 8 or 9, about halfway through a season." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/how-honor-rewards-battlegrounds-work-in-wow-forever/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+        },
+      },
+      images = {
+        {
+          file = "news\\s93db857673-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s93db857673-2",
+          credit = "Icy Veins",
+          caption = "Gurubashi Arena",
+        },
+        {
+          file = "news\\s93db857673-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s6c3f71331c",
+      time = 1795019547,
+      category = "News",
+      headline = "Auction House minimum deposit drops from 1 silver to 1 copper",
+      dek = "Cheap low-level materials are finally worth listing, since the deposit no longer costs more than the item.",
+      body = { "Blizzard said more than a week ago that the Auction House deposit would change, and the weekly reset finally brought it. The flat 1 silver minimum on every listing is gone, and the floor is back down to 1 copper.", "On the faction auction houses, the deposit now follows the vendor price and how long you list for. That is good news for anyone selling cheap early-level materials, who were paying more to list them than they were worth." },
+      bullets = { "2 hour listing: deposit is 5% of vendor price.", "8 hour listing: deposit is 20% of vendor price.", "24 hour listing: deposit is 60% of vendor price." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s6c3f71331c-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s6c3f71331c-2",
+          credit = "Wowhead",
+          caption = "Minimum Deposit",
+        },
+      },
+    },
+    {
+      id = "sf96bc8a888",
+      time = 1795017155,
+      category = "News",
+      headline = "Undead Paladins can't start their Sunken Temple class quests",
+      dek = "Horde Paladins miss three rare level 60 starter items that every other class gets from its Sunken Temple chain.",
+      body = { "From level 50, class trainers start a questline into the Sunken Temple, and in Forever you keep all three rare rewards, not just one. Undead Paladins are left out, though: every NPC in their chain, starting at Chillwind Point, is hostile to the Horde.", "That means no Chivalrous Signet, Lightforged Blade or Sanctified Orb. Their only high-level class quest, The Reliquary of Tyr in the newer and tougher Blackmaw Hold, gives just one item, the Sword of Mourning.", "Icy Veins thinks this is an oversight, since Dwarf Shamans can still reach their Sunken Temple quests by going to Bath'rah the Windwatcher in Alterac Mountains. The site hopes for a fix, such as adding the rewards to Blackmaw Hold." },
+      bullets = { "Undead Paladins miss Chivalrous Signet, Lightforged Blade and Sanctified Orb.", "Their alternative quest, The Reliquary of Tyr in Blackmaw Hold, gives one reward.", "Dwarf Shamans can start their chain at Bath'rah the Windwatcher in Alterac Mountains." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/undead-paladins-are-locked-out-of-three-rare-items-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sf96bc8a888-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
     {
       id = "s761f6b15a2",
       time = 1794998132,
@@ -311,121 +444,6 @@ AzerothAfterDarkNews = {
           file = "news\\s99d576cd68-3",
           credit = "Icy Veins",
           caption = "Get Started with Campfire Buffs",
-        },
-      },
-    },
-    {
-      id = "s7644cfdcbb",
-      time = 1794842056,
-      category = "Community",
-      headline = "Rextroy's level 30 Paladin heals through a level 60 Abomination",
-      dek = "A healing-power build shows how far cheap gear and rank 1 Flash of Light can stretch a mid-level Paladin.",
-      body = { "Experimenter Rextroy is at it again, this time with a level 30 Paladin that refuses to die. He pushed his Healing Power to 242 using Auction House greens with the of Healing suffix, plus enchants and consumables.", "With Oath of Light from the Holy tree, rank 1 Flash of Light heals for 250 at just 35 mana, and Blessing of Wisdom brings mana back faster than he spends it. The payoff: beating a level 60 Abomination and outlasting opponents who have no interrupt." },
-      bullets = {},
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/rextroy-turns-a-level-30-paladin-into-an-unkillable-healing-machine/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s7644cfdcbb-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sd6caf188c9",
-      time = 1794841200,
-      category = "News",
-      headline = "Dungeon kill XP raised 50% to make repeat runs feel better",
-      dek = "If your group needs a second clear for quest drops, the extra kill XP makes going back in hurt a lot less.",
-      body = { "Blizzard deployed a hotfix raising kill experience in dungeons by 50 percent, saying it wants going back for more runs to feel better. Wowhead notes it is still below what mobs gave on Vanilla-era servers.", "It lands amid grumbling about quests you cannot finish in one clear. Senior Game Designer Rowan Ryder said on the WoW Forever podcast that this is on purpose, since the team does not want dungeons to be one and done. Players point to Deviate Hides and Smart Drinks in Wailing Caverns, the Blackfathom Deeps quests and Starving Arcane in City of Dalaran.", "Aggrend also said quest items now drop in more of a round-robin way, so one player should not finish early and leave the rest of the group short." },
-      bullets = { "Dungeons: kill experience increased by 50%.", "Some dungeon quests are designed to need more than one run.", "Quest item drops now rotate more evenly between party members." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
-        },
-      },
-      images = {
-        {
-          file = "news\\sd6caf188c9-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sd6caf188c9-2",
-          credit = "Wowhead",
-          caption = "We still need four more Corrupted Brain Stems and five more Twilight Pendants..",
-        },
-      },
-    },
-    {
-      id = "s1f7600a873",
-      time = 1794836045,
-      category = "Community",
-      headline = "Abandoned Hunter pets roam Elwynn with Might of Stormwind",
-      dek = "Some low-level beasts are showing up with a world buff, so watch your pulls in the starting zones.",
-      body = { "World buffs are now popping in Stormwind, Orgrimmar and, new to Forever, Razor Hill, Goldshire, Lakeridge and Sentinel Hill. Players have spotted Elwynn Forest beasts carrying Might of Stormwind too. On a Young Forest Bear, normally 220 health, the buff more than doubles its health and adds 15 percent haste.", "The cause is not confirmed, but some Hunters say their buffed pets ran off after going unfed. Friendly NPCs can benefit as well; one player said the Defias Traitor escort went easier with the buff. Hunters, keep pet food in your bags." },
-      bullets = {},
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/hunter-pets-are-turning-into-low-level-bosses/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s1f7600a873-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s8f9d20bd50",
-      time = 1794834418,
-      category = "Community",
-      headline = "Forever PvP rank comes only from battleground wins, not kills",
-      dek = "World PvP kills do not move your rank, and some players report Sap and Polymorph with little or no diminishing returns.",
-      body = { "With battlegrounds filling up, players are learning how Forever ranks work. Rank Points come from battleground victories; kills and participation do not count directly. Streamer Jokerd, part of the world-first level 60 group, pointed out that no number of kills raises your rank unless you win.", "Some players also report chaining Sap and Polymorph on other players with little or no diminishing returns, which can keep a target locked down for a long time. Many hope it turns out to be a bug that gets fixed soon." },
-      bullets = { "PvP: Rank Points come only from battleground wins.", "Reported: Sap and Polymorph on players with little or no diminishing returns." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/sap-sheep-and-pvp-rank-points-is-winning-all-that-matters-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s8f9d20bd50-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "se606ae027e",
-      time = 1794769200,
-      category = "Guides",
-      headline = "Quest bags to grab while leveling, from 8 to 18 slots",
-      dek = "Gold is tight with training, Dual Spec and mounts, and these quest and boss bags cost nothing but time.",
-      body = { "Bag space vanishes fast while leveling, and gold goes to training every two levels, plus Dual Spec and mount training at 40. Wowhead rounded up bag rewards from quests and boss drops, including four new quests in the early levels.", "Some of these quests are tough solo when you first pick them up, so bring a friend. Boss drops like the Snakeskin Bag from Lady Anacondra or the Murloc Skin Bag from Gelihast are worth a try too." },
-      bullets = { "Level 7: Wizbang's Gunnysack (8 slots) from Buzzbox 525.", "Level 13: Deviate Hide Pack (10 slots) from Deviate Hides.", "Level 35: Explorer's Knapsack (14 slots) from Cortello's Riddle.", "Level 56: Hyjal Postal Satchel (18 slots) from Top of the Post." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\se606ae027e-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\se606ae027e-2",
-          credit = "Wowhead",
-          caption = "Bag Bar",
         },
       },
     },
