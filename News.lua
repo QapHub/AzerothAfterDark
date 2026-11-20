@@ -1,9 +1,333 @@
--- Azeroth After Dark news edition 2026-11-19. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-20. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795093305,
-  edition = "2026-11-19",
+  generated = 1795179779,
+  edition = "2026-11-20",
   stories = {
+    {
+      id = "s0f573a3204",
+      time = 1795149314,
+      category = "Hotfixes",
+      headline = "Hotfixes: Seed Hybridizer returns, Motes go soulbound, Skyborne discount",
+      dek = "Campers get their Hybridizer back, Ret Paladins get a fix, and the Mote of Unstable Magic gold trick is over.",
+      body = { "Blizzard pushed another round of Forever hotfixes on November 19, a little smaller than recent batches. The headline for campers: the Seed Hybridizer is switched back on, with new values and a real chance your seed combination fails.", "Gold makers, take note. Motes of Unstable Magic became soulbound around noon Pacific, so they can no longer be sold on the Auction House. Anything you farm now is for your own reputation turn-ins, and spares past Honored only go to a vendor. Blizzard did not say why.", "Skyborne finally get the Honored 10% discount on riding training from Genn Fairweather on Zephras Isle. The catch is that their reputation past Friendly comes from cloth turn-ins, ending in repeatable Runecloth donations, so run the numbers before you buy the cloth." },
+      bullets = { "Camping: Seed Hybridizer re-enabled, with adjusted values and a chance of failure when combining seeds.", "Camping: Scarce Herb Seeds can no longer go into the Seed Hybridizer.", "Paladin: Retribution's Two-Handed Weapon Specialization now boosts all Holy damage with a two-hander.", "City of Dalaran: Shade of the Archmage no longer despawns the moment combat starts.", "The Shaper's Terrace: Vitrix's Poison Shock damage reduced.", "Riverglades: Mosh'gra can now actually drop its rare loot.", "Shimmering Flats: Silithid Hive Drone stuck under the world near Rustmaul Dig Site fixed.", "Items: Motes of Unstable Magic are now soulbound; Squall-breaker's Potion can now be deleted.", "Quests: Stormpike's Deciphering now lets you get a new Ensorcelled Parchment if you destroyed yours.", "Quests: Hunting for Ectoplasm uses the correct creature type; Rift Away no longer grants a strange tome.", "Skyborne: Honored 10% discount now applies to Apprentice and Journeyman Riding on Zephras Isle.", "Tauren: Cultivation works more reliably on herbs you can gather and now works with Purple Lotus." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/camping-races-quest-improvements-wow-forever-hotfixes-november-19th/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
+        },
+      },
+      images = {
+        {
+          file = "news\\s0f573a3204-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s0f573a3204-2",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s0f573a3204-3",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s03efa6e6bb",
+      time = 1795140549,
+      category = "News",
+      headline = "Blizzard is looking into three bugged quests",
+      dek = "Stuck on Call of Earth, Biding Our Time or Witch Doctor Ti'ik? Blizzard knows, but there is no fix date yet.",
+      body = { "The official BlizzardCS account has left notes on three Forever quests confirming the bugs are being investigated.", "Call of Earth is not giving level 3 Skyborne Shamans their Stoneskin Totem. In Witch Doctor Ti'ik, the head drops for only one member of a group. And Biding Our Time can hand out a reward showing a red question mark that cannot be used, though some players say their cloak has since come through fine.", "No timeline was given. If you are grouping for Ti'ik, it may be worth doing it one at a time for now." },
+      bullets = { "Call of Earth: level 3 Skyborne Shamans don't receive Stoneskin Totem.", "Witch Doctor Ti'ik: the head drops for only one party member.", "Biding Our Time: reward can appear as an unusable red question mark item." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s03efa6e6bb-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s8bf9b3588b",
+      time = 1795135327,
+      category = "News",
+      headline = "Devs admit Spell Power gear is too thin while leveling",
+      dek = "Leveling a caster and finding little Spell Power gear? Blizzard agrees and plans to add more around levels 15 to 40.",
+      body = { "Caster damage was lowered at baseline in Forever on purpose, with new Spell Power gear meant to make up the difference so casters care about upgrades as much as Warriors and Rogues do.", "On the latest podcast, Kris Zierhut said the team probably added a bit too little of it, partly out of caution about how big the change was. The gear does exist, but the 15 to 40 range is thinner than it should be.", "The plan is to add more Spell Power items for leveling in future patches. No date yet, so Mages and Warlocks will have to hunt a little harder for now." },
+      bullets = {},
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s8bf9b3588b-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "sbe956cf5da",
+      time = 1795130447,
+      category = "News",
+      headline = "Some EU players can't get Battleground queues to pop",
+      dek = "If your EU Battleground queue never pops, a bugged layer may be to blame; a friend's group queue can help.",
+      body = { "Players on some EU realms report that Battleground queues never pop unless they switch layers, according to posts on the forums and Reddit. Some also mention trouble with Honor gains.", "Players suspect certain EU layers are bugged, with some pointing to one home layer in particular. Blizzard has not commented in the report.", "If you are stuck, try getting a friend to queue you as a group, or change layers by joining a party." },
+      bullets = {},
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\sbe956cf5da-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\sbe956cf5da-2",
+          credit = "Wowhead",
+          caption = "Battle.net Forums",
+        },
+      },
+    },
+    {
+      id = "s8410238c3e",
+      time = 1795127630,
+      category = "Guides",
+      headline = "Pre-raid DPS tier list: Fury on top, Ret right behind",
+      dek = "Deciding on a main for raids? Fury, Ret, Demonology and all three Hunter specs make the S tier.",
+      body = { "Icy Veins has published its pre-raid DPS rankings for Forever, two weeks in. Fury Warrior takes first, praised for its cleave, Execute and group buffs, with Retribution Paladin a slightly surprising second.", "Demonology is the only caster in S tier, joined by all three Hunter specs. Classes are still changing often, so expect this list to move before raids open." },
+      bullets = { "S tier: Fury Warrior, Retribution Paladin, Demonology Warlock.", "S tier: Survival, Marksmanship and Beast Mastery Hunter.", "A tier: Feral, Affliction, Arcane, Enhancement, Destruction, Fire." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-pre-raid-dps-tier-list-now-live/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s8410238c3e-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "sb15ecbfcba",
+      time = 1795126216,
+      category = "Events",
+      headline = "Win water-walking Surfer Shoes at Sunday's fishing contest",
+      dek = "Now 250 players per ruleset can win the Stranglethorn Extravaganza, and the prize lets you walk on water.",
+      body = { "The Surfer Shoes are new Rare cloth boots exclusive to Forever. Using them gives five minutes of water walking on a one-hour cooldown, though taking or dealing damage ends it early.", "You earn them at the Stranglethorn Fishing Extravaganza, every Sunday at 2 PM server time for two hours. Blizzard has opened it up so 250 winners per ruleset can claim a prize.", "You need at least 150 Fishing. Catch 40 Speckled Tastyfish, hand them to Riggle Bassbait in Booty Bay before the cap fills, then trade your coin to Jang for the shoes." },
+      bullets = { "When: Sundays, 2 PM server time, two hours.", "Needs: 150 Fishing skill and 40 Speckled Tastyfish.", "Up to 250 winners per ruleset.", "Shoes: item level 25, 29 armor, 10 Stamina, 5 min water walking." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/these-wow-forever-boots-let-you-walk-on-water-and-250-players-can-win-them/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sb15ecbfcba-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "sca06b9977c",
+      time = 1795125565,
+      category = "Guides",
+      headline = "Sealed Writs give daily Supply Faction rep, no profession needed",
+      dek = "Looting a Sealed Writ starts a quest worth up to 200 Supply rep, the key to exclusive profession recipes.",
+      body = { "Sealed Journeyman's, Expert's and Artisan's Writs can drop from chests, dungeons and mobs level 10 or higher, with better tiers in higher-level zones. Right-click one to start a crafting order quest.", "You do not need the matching profession, since the item can be bought on the Auction House. Turning it in grants 75, 125 or 200 reputation with the Azeroth Commerce Authority or Durotar Supply and Logistics. That is separate from Merchant's Favor.", "Each writ can be turned in once a day, but 44 different Journeyman writs have been found so far, so lucky players can stack a lot of rep." },
+      bullets = { "Rewards: 75 rep Journeyman, 125 Expert, 200 Artisan.", "Alliance: Azeroth Commerce Authority. Horde: Durotar Supply and Logistics.", "Each writ is once per day; 44 Journeyman versions found so far." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/sealed-writs-are-a-daily-source-of-supply-faction-reputation-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sca06b9977c-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\sca06b9977c-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s2b14ad21ad",
+      time = 1795124866,
+      category = "Guides",
+      headline = "Recovery enchant heals you when enemies dodge or parry",
+      dek = "Cleave Warriors are farming packs with a weapon enchant that restores 5% health on dodges and parries.",
+      body = { "Enchant Weapon - Recovery heals you for 5% of your max health whenever one of your melee swings is dodged or parried, with a 10-second internal cooldown. It seems to proc less on low-level mobs.", "It shines for Warriors pulling big packs in the open world, cutting downtime for a class with little regeneration. Anyone in melee can use it.", "The recipe costs 45 Merchant's Favor, with no reputation needed, from Lindsia at Three Corners in Redridge for Alliance or Beneris outside the Crossroads for Horde. The enchanter needs skill 140." },
+      bullets = { "Effect: heal 5% max health on dodge or parry, 10 sec cooldown.", "Recipe: 45 Merchant's Favor, no Supply reputation required.", "Enchanting 140 needed.", "Mats: 6 Soul Dust, 4 Large Glimmering Shard, 6 Greater Astral Essence, 4 Pyrite, 4 Silver Ore." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/players-are-healing-off-enemy-dodges-and-parries-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s2b14ad21ad-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s2b14ad21ad-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s6cb9e5ac60",
+      time = 1795118138,
+      category = "News",
+      headline = "Forever Podcast Ep. 8: healer shortage, PvP burst, class tuning",
+      dek = "The devs admit dungeons need more healers and say no Resilience-style stat is coming for bursty PvP.",
+      body = { "Episode 8 of the official WoW: Forever Podcast is out, with host Countdown To Classic joined by designers Aidan Moon and Kris Zierhut to talk classes, itemization and gear.", "The team admitted leveling dungeons are short on healers and said they are exploring ways to reward people who heal, though nothing concrete was announced. On the 100 gold weekly quest, they explained it was meant to help casual players, but they do not want weekly chores to pile up in Forever.", "PvP damage feels burstier than Vanilla because classes gained more tools while health did not keep pace. More Stamina on gear is one idea, but a damage-reduction stat like Resilience is off the table. The second half goes class by class. With US Thanksgiving next week, expect a break, then a raid-focused episode." },
+      bullets = { "Healers: shortage in leveling dungeons acknowledged, incentives being explored.", "Weekly gold quest: no plans to add more weekly quests.", "PvP: no Resilience-style stat; more Stamina on gear is being considered.", "Next episode after Thanksgiving will focus on raids." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/healer-shortage-pvp-balance-class-tuning-the-wow-forever-podcast-ep-8/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
+        },
+        {
+          name = "Blizzard",
+          url = "https://worldofwarcraft.blizzard.com/en-us/news/24317086",
+        },
+      },
+      images = {
+        {
+          file = "news\\s6cb9e5ac60-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s6cb9e5ac60-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s6cb9e5ac60-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s33457a0c4e",
+      time = 1795115961,
+      category = "News",
+      headline = "Zirene wants to kill BiS lists and teases a full-bags stat item",
+      dek = "Forever gear is built around the fight in front of you, and future items may reward hoarders with packed bags.",
+      body = { "Senior Game Designer Aidan Moon, known as Zirene, said on the podcast that he wants to do away with the idea of one best-in-slot list. Creature subtypes and biomes are meant to make the right gear depend on the boss and the setting.", "He gave the raid as an example: one wing is snowy and the other haunted, so the best kit should shift from fight to fight. The devs also said bigger bags and better ways to sort items are coming as more of this niche gear arrives.", "Asked for a tease, Zirene floated an item that might grant extra stats when your bags are completely full, joking it could be Master Looter best-in-slot." },
+      bullets = { "Gear choices are meant to change by creature type and biome, boss to boss.", "Raid wings will have different biomes, such as snowy and haunted.", "Bigger bags and better item search are planned.", "Teased: a possible item granting bonus stats while bags are full." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
+        },
+      },
+      images = {
+        {
+          file = "news\\s33457a0c4e-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s33457a0c4e-2",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "sb412ba1226",
+      time = 1795112214,
+      category = "Community",
+      headline = "Podcast board says Study The Well, and secret hunters are on it",
+      dek = "A new hidden clue is live, and explorers think it points to a well in Mount Hyjal.",
+      body = { "Every podcast episode hides a message on the board behind the developers, and this week it read STUDY THE WELL along with a string of numbers.", "The Secret Finders Discord has already narrowed it down to one well in Mount Hyjal. Past board messages have led to beta codes, coordinates for a scenic spot and secret codes, so nobody knows yet what this one unlocks. Expect it to be cracked soon." },
+      bullets = {},
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser",
+        },
+      },
+      images = {
+        {
+          file = "news\\sb412ba1226-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\sb412ba1226-2",
+          credit = "Wowhead",
+          caption = "Study the Well",
+        },
+      },
+    },
+    {
+      id = "scb836fdb05",
+      time = 1795100400,
+      category = "Guides",
+      headline = "Any class can earn a free 16-slot Red Bag from an old SoD questline",
+      dek = "A Season of Discovery quest chain is now open to everyone in Forever and pays out a free 16-slot bag.",
+      body = { "The old Warrior Shockwave rune questline from Season of Discovery is in Forever, and any class can do it. Partway through you get the Red Bag, a free 16-slot bag. It lowers stealth by 2, which only matters to Rogues and Druids.", "The chain starts at a Half-Buried Mech off southern Tanaris and goes through Everlook and Burning Steppes, with level 59 mobs along the way.", "It ends with Rift Away against Harvest Golem V000-A, an elite with over 200,000 health. Bring a healer and some damage dealers for Sun Shades transmog and the Ingenious Toy." },
+      bullets = { "Start: Half-Buried Mech off the southern coast of Tanaris.", "Red Bag: 16 slots, minus 2 stealth for Rogues and Druids.", "Final boss: Harvest Golem V000-A, elite, over 200k health.", "Rewards include Sun Shades transmog and Ingenious Toy." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383896/earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\scb836fdb05-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\scb836fdb05-2",
+          credit = "Wowhead",
+          caption = "Free 16-Slot Bag",
+        },
+        {
+          file = "news\\scb836fdb05-3",
+          credit = "Wowhead",
+          caption = "Free 16-Slot Bag",
+        },
+      },
+    },
     {
       id = "s6bf70b7f60",
       time = 1795051522,
@@ -113,337 +437,6 @@ AzerothAfterDarkNews = {
           file = "news\\s6c3f71331c-2",
           credit = "Wowhead",
           caption = "Minimum Deposit",
-        },
-      },
-    },
-    {
-      id = "sf96bc8a888",
-      time = 1795017155,
-      category = "News",
-      headline = "Undead Paladins can't start their Sunken Temple class quests",
-      dek = "Horde Paladins miss three rare level 60 starter items that every other class gets from its Sunken Temple chain.",
-      body = { "From level 50, class trainers start a questline into the Sunken Temple, and in Forever you keep all three rare rewards, not just one. Undead Paladins are left out, though: every NPC in their chain, starting at Chillwind Point, is hostile to the Horde.", "That means no Chivalrous Signet, Lightforged Blade or Sanctified Orb. Their only high-level class quest, The Reliquary of Tyr in the newer and tougher Blackmaw Hold, gives just one item, the Sword of Mourning.", "Icy Veins thinks this is an oversight, since Dwarf Shamans can still reach their Sunken Temple quests by going to Bath'rah the Windwatcher in Alterac Mountains. The site hopes for a fix, such as adding the rewards to Blackmaw Hold." },
-      bullets = { "Undead Paladins miss Chivalrous Signet, Lightforged Blade and Sanctified Orb.", "Their alternative quest, The Reliquary of Tyr in Blackmaw Hold, gives one reward.", "Dwarf Shamans can start their chain at Bath'rah the Windwatcher in Alterac Mountains." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/undead-paladins-are-locked-out-of-three-rare-items-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sf96bc8a888-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s761f6b15a2",
-      time = 1794998132,
-      category = "News",
-      headline = "Blackmaw Hold exploiters lose their gold and get suspended",
-      dek = "Ran Blackmaw Hold a few times? You're fine. Blizzard is only going after the couple hundred players who farmed the bug.",
-      body = { "Blizzard has now dealt with the Blackmaw Hold gold farm. Over a weekend, a big pack of non-elite mobs in the dungeon was dropping full elite loot. A hotfix closed that off, and then the team went looking at who had cashed in.", "They found a couple hundred players worldwide who knew it was a bug and farmed only that pack. Those accounts got an economy lock first. Now Blizzard is taking back every bit of gold earned from the bug, vendored drops included, and suspending the worst offenders.", "If you ran the dungeon a few times and the extra loot just showed up, Blizzard says you did nothing wrong and your account is safe. Reported penalties go from economy restrictions and short suspensions all the way up to permanent closures.", "Not everyone is happy, though. Streamer and AWC caster Ziqo, who showed off more than 4,000 gold from the farm, says he got a 7-day suspension. Some players say they got longer bans for less, and Blizzard hasn't explained why the penalties differ." },
-      bullets = { "Gold earned from the bug is being removed, including gold from vendoring the bugged drops.", "Account suspensions are going to significant abusers, roughly a couple hundred players worldwide.", "Players who ran the dungeon casually and got the extra loot will not be punished.", "Ziqo says he got a 7-day suspension, and players are arguing over whether the penalties are consistent." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/account-suspensions-and-gold-removal-for-blackmaw-hold-exploit-abusers/",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/blackmaw-hold-bans-spark-outrage-as-ziqo-receives-7-day-suspension/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s761f6b15a2-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s761f6b15a2-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s761f6b15a2-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sbc6fc5a437",
-      time = 1794973427,
-      category = "Hotfixes",
-      headline = "Hotfixes: UBRS gets tougher, Shen'dralas quests eased, Soulforge reworked",
-      dek = "Planning a UBRS run tonight? Bring a full, focused group, because a bug that kept its enemies weak has been fixed.",
-      body = { "The November 17 hotfixes are a big batch. Top of the list: a bug in Upper Blackrock Spire left enemy health and damage well below what was intended. With that fixed, Blizzard says UBRS once again takes a full group of careful players.", "Questing in Shen'dralas should be a lot less painful. Several quest drops and objectives are now shared with your party, a few enemies cast their abilities less often, and the Agamaggan's Blood quest no longer sends you into a dungeon to finish it.", "Paladin tanks are getting a new look at their gear. Strength is gone from the Soulforge set, and every piece now has more Intellect and some Spell Power, as Blizzard leans into Spell Power for Paladin tank damage. Campers, professions and your ignore list all got fixes too." },
-      bullets = { "Upper Blackrock Spire: enemy health and damage fixed after being much lower than intended.", "Paladin: Soulforge Armor loses Strength and gains Spell Power and more Intellect on every piece.", "Shen'dralas: Agamaggan's Blood can now be finished in the elite area outside Razorfen Downs.", "Shen'dralas: the Heart of Crystal drop and the Powering the Pylons objectives are now shared with your party.", "Shen'dralas: Spectral Iron Ore spawns more often and miners can now track it.", "Shaman: Flurry no longer loses stacks when Windfury Totem attacks land.", "Might of Stormwind and Warchief's Blessing: now cancel on death and no longer apply to non-players.", "Camping: you can no longer sleep on the Cozy Sleeping Bag while mounted, and it now shows a Resting aura.", "PvP: Alterac Valley quests need level 58, and you can no longer mount in the Warsong Gulch starting rooms.", "Items: Escape Plan now deals 54 to 102 damage, and Darkmoon Card: Blue Dragon procs 3% of the time (was 2%).", "Blacksmithing: Bronze Mace is now Bind on Equip and can go in the Transmog Collection.", "Interface: your ignore list now stays saved when you log out." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383914/ubrs-damage-and-health-increases-and-shendralas-improvements-wow-forever",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/ubrs-buffs-profession-and-camping-improvements-quest-fixes-wow-forever-hotfixes-november-17th/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\sbc6fc5a437-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sbc6fc5a437-2",
-          credit = "Wowhead",
-          caption = "combat image",
-        },
-        {
-          file = "news\\sbc6fc5a437-3",
-          credit = "Wowhead",
-          caption = "crating image",
-        },
-      },
-    },
-    {
-      id = "s621879efcf",
-      time = 1794970559,
-      category = "Guides",
-      headline = "Hunters: hidden Mount Hyjal cat has Broken Tooth's 1.0 attack speed",
-      dek = "Want the fastest pet attack speed without camping Broken Tooth for hours? There's a new cat to tame from level 57.",
-      body = { "Here's one most Hunters have never heard of. A player spotted a green and orange striped cat in a Horde auction house, asked the owner where it came from, and the secret got out. The best part: it has a 1.0 attack speed, the fastest any pet can have.", "Before now, that speed meant camping Broken Tooth, the Badlands rare elite with a 6 to 8 hour respawn. The new cat is easier to get and easier to tame. You need to be level 57, though 58 makes the tame easier.", "Go to Felblood Scar in Mount Hyjal and search the pools of green slime near the white crystals for a Corrupted Cat Figurine, a gray item that barely pokes out of the ground. Take it to the lantern on the hillside above Mourning's Rest, around 27.0, 63.6, and use the lantern to spawn the cat." },
-      bullets = { "Attack speed: 1.0, the same as Broken Tooth.", "Level 57 minimum, and 58 is easier for taming.", "Find the Corrupted Cat Figurine in the slime pools at Felblood Scar, Mount Hyjal.", "Use the lantern above Mourning's Rest, around 27.0, 63.6, to spawn the cat." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/hunters-can-get-their-hands-on-a-never-before-seen-pet-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s621879efcf-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s621879efcf-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "seeb20a197d",
-      time = 1794960290,
-      category = "News",
-      headline = "Forever tops 15 million characters in its first two weeks",
-      dek = "You've got company out there: Blizzard's two-week numbers show record crowds, and Arugal has killed more players than any other boss.",
-      body = { "Blizzard has shared stats from the first two weeks of WoW: Forever, and they are big. Players have created more than 15 million characters and finished nearly 1.5 billion quests.", "Holly Longdale also said more people are playing Forever each week than WoW has seen in 15 years. If the roads feel crowded, now you know why.", "As for which boss has done the most damage to all of us, it's Archmage Arugal in Shadowfang Keep, with players dying close to 197 million times overall." },
-      bullets = { "Characters created: 15,160,147.", "Quests completed: 1,480,343,357.", "Guilds created: 140,764, and parties formed: 71,309,889.", "Deadliest boss: Archmage Arugal in Shadowfang Keep." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383912/wow-forever-continuing-to-break-records-with-over-15-million-characters-created",
-        },
-      },
-      images = {},
-    },
-    {
-      id = "s75f5166628",
-      time = 1794935474,
-      category = "Guides",
-      headline = "Linken's Boots of Iron let you walk along the sea floor",
-      dek = "Underwater quest coming up? These level 38 boots from the Drowned City let you walk underwater. Just bring water breathing.",
-      body = { "A player found a fun secret: Linken's Boots of Iron let you walk underwater. They look like plain level 38 boots, and the tooltip calls them useless, but the effect is real. It's a nod to Link's Iron Boots from Zelda.", "They drop in the Drowned City, from one of the bosses and from a few rare elites. Mounts don't work with them, but Tauren Plainsrunning does. The catch: on dry land they're so heavy that you can only walk, not run.", "Be careful with them. Without some way to breathe underwater, getting back to the surface can take a while, and you can't take the boots off during combat." },
-      bullets = { "Linken's Boots of Iron: level 38 boots that let you walk underwater.", "They drop from a Drowned City boss and several rare elites.", "Out of the water you can only walk, and they can't be removed in combat." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/forever-has-some-awesome-underwater-walking-boots/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s75f5166628-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s13b85724cd",
-      time = 1794929902,
-      category = "News",
-      headline = "Blackmaw Hold gold farm hotfixed, and players want more done",
-      dek = "The Devotee room no longer drops loot, but the gold it made is still out there, so watch Mote and Pouch prices.",
-      body = { "Blizzard hotfixed the Blackmaw Hold farm on November 16. A room of around 30 Blackmaw Devotees, non-elites that only auto-attack, was dropping coin, greens, Motes of Unstable Magic and Blackmaw Pouches, and groups kept resetting the dungeon to clear it again. Wowhead clocked it at over 100 gold an hour. Those mobs now drop no loot at all.", "The fix did not end the conversation. Some players say they made thousands of gold, and with most of the population still leveling, many worry about inflation and a few rich players cornering markets like Arcane Crystals. Posts about the farm took over the big WoW subreddits, and a petition aimed at streamers accused of abusing it reached the top of r/all.", "Blizzard recently told But Why Tho? it is watching the economy more closely than ever and taking a stronger stance on rule breaking. Whether anything happens beyond the fix is still unknown. If you trade Motes or Pouches tonight, check prices before you list." },
-      bullets = { "Blackmaw Hold: Blackmaw Devotees in the farm room no longer drop any loot.", "The dungeon needs level 55 to enter, so most players never touched the farm.", "Watch Mote of Unstable Magic and Blackmaw Pouch prices after the change." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383898/100-gold-per-hour-farm-nerfed-in-wow-forever",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
-        },
-      },
-      images = {
-        {
-          file = "news\\s13b85724cd-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s13b85724cd-2",
-          credit = "Blizzard Entertainment",
-        },
-      },
-    },
-    {
-      id = "s8bd50d6d7b",
-      time = 1794927448,
-      category = "Guides",
-      headline = "Save gold on training: higher faction rep means cheaper spells",
-      dek = "Every new rank costs coin, and training where your reputation is higher shaves a little off each visit.",
-      body = { "A handy money tip from the community: class trainers charge less when you have higher reputation with their faction. Before you buy new ranks, think about which city you are training in.", "The discount per visit is small, but training costs climb as you level, so the savings add up. Your mount fund will notice." },
-      bullets = { "Training costs drop with higher reputation with the trainer's faction.", "Train in the faction city where your reputation is best." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/save-gold-for-your-mount-with-this-wow-forever-training-trick/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s8bd50d6d7b-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sc8f9f862c9",
-      time = 1794927296,
-      category = "Maintenance",
-      headline = "NA realms down about an hour for weekly maintenance",
-      dek = "North American WoW: Forever realms are offline for scheduled maintenance, so plan for roughly an hour of downtime.",
-      body = { "WoW: Forever realms in North America went down for scheduled weekly maintenance on November 17. Blizzard's weekly schedule puts the downtime at about one hour.", "If you cannot log in, give it a little time and try again once realms come back. Some queued changes, like the Vampiric Embrace adjustment for Priests, were set to go live with this maintenance." },
-      bullets = {},
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour",
-        },
-      },
-      images = {
-        {
-          file = "news\\sc8f9f862c9-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s378696d71a",
-      time = 1794904829,
-      category = "Hotfixes",
-      headline = "Hotfixes: Windfury Totem fixes, Fury Cleave bugs, Drowned City nerfs",
-      dek = "A huge week of fixes touches every class, dungeons, quests and items, and Vampiric Embrace changes with weekly maintenance.",
-      body = { "Blizzard posted another large batch of WoW: Forever hotfixes on November 16, on top of the November 13 round. Shamans get the most attention: Windfury Totem attacks had been ignoring armor with no internal cooldown, and several abilities could trigger it when they should not. Fury Warriors get Cleave and Heroic Strike fixes for Unbridled Wrath, Flurry and Reckless Swings.", "Shadow Priests, take note: Vampiric Embrace now heals for 10 percent of your Shadow damage, down from 20, and the casting Priest gets double healing from it. Blizzard says solo play is unchanged. That one arrives with weekly maintenance.", "In dungeons, Captain Dreadrise in The Drowned City can now be stunned, and his Abyssal Bubble can no longer block, dodge or parry. Quest fixes cover Blood Red Bandanas, The Talisman of Kazdor, No Soldier Left Behind and the Theramore chain. The earlier batch fixed stun diminishing returns against creatures and doubled the Restoration Wild Growth coefficient." },
-      bullets = { "Shaman: Windfury Totem attacks no longer ignore armor and now have an internal cooldown.", "Shaman: Weapon imbues and weapon totems now work together, like Windfury Weapon with Windfury Totem.", "Shaman, Enhancement: Stormstrike now deals 100% weapon damage (was 150%), cooldown 8 sec (was 6).", "Warrior, Fury: Cleave and Heroic Strike now trigger Unbridled Wrath and Reckless Swings and keep Flurry stacks.", "Priest: Vampiric Embrace heals for 10% of Shadow damage (was 20%); the caster gets 100% more from it.", "Druid, Restoration: Wild Growth coefficient raised to 6.6% (was 3.3%) and it can no longer be cast moving.", "Hunter: Pets now have 115% of normal health (was incorrectly 150%).", "Rogue: Poison ranks can no longer go above the maximum rank.", "Classes: Diminishing returns on stuns between players and creatures now work.", "The Drowned City: Captain Dreadrise is no longer immune to stuns.", "Camping: The Fishing Rack now provides lures for everyone, and Bloated Fish drop more often.", "PvP: Dying in the Arathi Basin Gold Mine no longer sends you to a graveyard in Riverglades." },
-      sources = {
-        {
-          name = "Blizzard",
-          url = "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/class-fixes-campfire-improvements-dungeon-tweaks-wow-forever-hotfixes-november-16th/",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/class-and-profession-changes-dungeon-tweaks-massive-quest-fixes-wow-forever-weekly-hotfix-summary-november-9-16/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s378696d71a-1",
-          credit = "Blizzard",
-        },
-        {
-          file = "news\\s378696d71a-2",
-          credit = "Blizzard",
-          caption = "WoW: Forever Hotfixes - November 16, 2026",
-        },
-        {
-          file = "news\\s378696d71a-3",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "sb538799c89",
-      time = 1794873620,
-      category = "News",
-      headline = "First cosmetic Hearthstone found: the Scarlet Hearthstone",
-      dek = "Collectors have a new Eastern Plaguelands target, with a custom animation for your hearth cast.",
-      body = { "Players have found the first cosmetic Hearthstone in WoW: Forever. The Scarlet Hearthstone plays a unique animation on your character during the 10-second hearth cast.", "It is learned into your Toy Box, but you use it through a Scarlet Hearthstone item, so it still takes a bag slot. According to a WoW Forums report from Undyingshaman, it drops from High General Abbendis in Eastern Plaguelands." },
-      bullets = { "Source: High General Abbendis in Eastern Plaguelands (player report).", "Goes in the Toy Box but gives an item that uses a bag slot." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/the-scarlet-hearthstone-might-be-wow-forevers-coolest-new-toy/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sb538799c89-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s99d576cd68",
-      time = 1794856585,
-      category = "Guides",
-      headline = "Blizzard's Forever 101 video walks new players through the basics",
-      dek = "New to Forever? The official overview covers Recent Allies, Camping, professions, cities, guilds and max-level content.",
-      body = { "Blizzard has released Forever 101, an overview video for players new to WoW: Forever. It covers the Recent Allies panel and Camping, professions, capital cities, stocking up on supplies, portals and summons, guilds and max-level content.", "A few basics worth knowing: you can group with, buff and resurrect anyone in your faction, and Recent Allies keeps a list of people you grouped with lately. Campfires need Cooking to start, and anyone can add items to the camp for more buffs.", "You can learn all three secondary professions, Fishing, Cooking and First Aid, plus up to two primary ones. And if you start your own guild, the charter needs 10 signatures to make it official." },
-      bullets = { "Recent Allies lists players you recently grouped with.", "Campfires need Cooking; anyone can add items for extra buffs.", "All three secondary professions plus two primary professions per character." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383897/forever-101-blizzard-releases-new-player-overview-video-for-wow-forever",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/getting-started-in-azeroth-in-world-of-warcraft-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s99d576cd68-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s99d576cd68-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s99d576cd68-3",
-          credit = "Icy Veins",
-          caption = "Get Started with Campfire Buffs",
         },
       },
     },
