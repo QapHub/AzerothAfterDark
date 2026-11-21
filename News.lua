@@ -1,9 +1,169 @@
--- Azeroth After Dark news edition 2026-11-20. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-21. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795179779,
-  edition = "2026-11-20",
+  generated = 1795266162,
+  edition = "2026-11-21",
   stories = {
+    {
+      id = "sb7bc0e023d",
+      time = 1795220616,
+      category = "Hotfixes",
+      headline = "Hotfixes: dungeon resets cut to 5 an hour, LFG shows more groups",
+      dek = "Dungeon farmers get half the hourly resets, a Warlock exploit is closed, and the group finder should finally list every group.",
+      body = { "Blizzard pushed the last hotfix batch of the week on November 20, and the headline change hits dungeon farmers hardest: you can now reset and enter each dungeon only 5 times per hour, down from 10. Plan your runs accordingly.", "There is good news for anyone hunting for a group, too. A bug was hiding some groups from some players in the group finder, and it has been fixed, so the list should look a lot fuller tonight.", "On the class side, Combat Rogues get a damage fix for Blade Flurry, while Demonology Warlocks lose a trick that kept Demonic Aegis effects after untalenting. Add a batch of quest fixes and a repaired forge in Summit of Eternity, and it is a tidy little Friday patch." },
+      bullets = { "Dungeons: each dungeon can now be reset and entered 5 times per hour (was 10).", "User Interface: fixed some players seeing fewer groups than intended in the group finder.", "Rogue, Combat: Blade Flurry now correctly makes Shank hit an additional target.", "Warlock, Demonology: Demonic Aegis can no longer be snapshotted into Demon Armor or Demon Skin and kept after untalenting.", "Items: Stormshroud Armor 3-piece now a 3% chance (was 4%) to restore 18 energy (was 30).", "Blackrock Spire: a rebel stone pillar should no longer trap players.", "Professions: Toron Rockhoof's forge and anvil in Summit of Eternity work again for blacksmithing and smelting.", "Quests, The Hinterlands: Witch Doctor Ti'ik now drops a head for each group member on the quest.", "Quests, Feralas: Perfect Yeti Hide no longer drops again while you are on its quest.", "Quests, Tanaris: Gor'marok respawns faster for The Dunemaul Compound.", "Quests, Riverglades: Dunston Willis no longer runs off partway through Dunston Checks Out.", "NPCs, Orgrimmar: Mayhoa Skyhoof no longer has glowing eyes." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/hourly-dungeon-reset-limit-halved-class-fixes-quest-improvements-wow-forever-hotfixes-november-20th/",
+        },
+        {
+          name = "Blizzard",
+          url = "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
+        },
+      },
+      images = {
+        {
+          file = "news\\sb7bc0e023d-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\sb7bc0e023d-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\sb7bc0e023d-3",
+          credit = "Blizzard",
+        },
+      },
+    },
+    {
+      id = "s4f87808d40",
+      time = 1795207879,
+      category = "News",
+      headline = "Crafted tier set stats revealed ahead of the December 9 raid launch",
+      dek = "Crafters can now see the stats on craftable tier pieces, a possible backup plan if raid drops do not go your way.",
+      body = { "The first raid tier of WoW: Forever launches globally on December 9, and a hotfix has now revealed the stats on crafted versions of its tier set gear. Blizzard confirmed to Wowhead that this was intentional, since item hiding does not cover vendor and recipe items. The set bonuses shown are placeholders and will change.", "Each crafted piece carries a unique tag, Artisan's Tier (1), which suggests you can craft exactly one tier piece. That could act as bad luck protection toward your next set bonus if the bosses keep ignoring you.", "One catch: on the beta the recipes came from a vendor for Malleable Essence of Nature, but in the current build that vendor no longer sells them. How you will earn the plans at launch is still unknown." },
+      bullets = { "First raid tier launches globally on December 9.", "Crafted tier stats are visible in game now; set bonuses are placeholders.", "Artisan's Tier (1) hints you can craft only one tier piece.", "The beta recipe vendor no longer offers the plans in the live build." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
+        },
+      },
+      images = {
+        {
+          file = "news\\s4f87808d40-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s3595a8f3ef",
+      time = 1795202369,
+      category = "Guides",
+      headline = "Ring the gong in an Arathi cave to summon the Witherbark Goliath",
+      dek = "A hidden cave fight drops a quest item worth a big chunk of XP, plus crafting recipes and Waylaid Crates.",
+      body = { "Players have found a secret mini-boss fight in the Witherbark Troll Cave in southern Arathi Highlands, around 67.5, 80.9. The trolls inside have roughly a 7 to 11 percent chance to drop a Witherbark Mallet, which is your ticket in.", "With the Mallet in your bags, head deep into the cave behind Witherbark Village and strike the large gong. Two Witherbark Champions and the Witherbark Goliath, a level 35 elite that hits very hard, will spawn. Bring a group, or stock up on potions, food and campfire buffs if you want to try it alone.", "The prize is Goliath's Wristguards, a chance drop that starts a one-time quest with a large XP reward. The cave is in contested territory, so both Horde and Alliance can farm it." },
+      bullets = { "Location: Witherbark Troll Cave, southern Arathi Highlands, around 67.5, 80.9.", "Witherbark Mallet drops from cave trolls at roughly 7 to 11 percent.", "Goliath's Wristguards start a non-repeatable quest with big XP.", "Other loot: Formula: Enchant Gloves - Skinning, greens, materials and Waylaid Crates." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/a-secret-cave-with-a-familiar-mini-boss-has-been-found-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s3595a8f3ef-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s3595a8f3ef-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s5260fdb773",
+      time = 1795201255,
+      category = "News",
+      headline = "Layer Swap and other targeted layering addons are about to break",
+      dek = "An upcoming hotfix hides realm IDs from addons, so picking a specific layer will soon be down to luck.",
+      body = { "If you use Layer Swap or a similar addon to hop to a specific layer, enjoy it while it lasts. Blizzard told addon authors that an upcoming Forever 1.60.1 hotfix will hide the realm ID in creature and object GUIDs, and APIs that return realm names or IDs will hand back an empty string or zero instead.", "Those addons read creature GUIDs to work out which layer you are standing on, so without that data they cannot track or target layers. Layer hopping itself is not going away, but you will be jumping blind until you land somewhere quieter, unless authors find another workaround." },
+      bullets = { "Realm IDs in creature, vehicle, pet and object GUIDs will be obfuscated in hotfix 1.60.1.", "GetRealmName, GetRealmID and some C_BattleNet returns will give empty values on Forever.", "Layer swapping still works, but targeting a specific layer will not." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
+        },
+      },
+      images = {
+        {
+          file = "news\\s5260fdb773-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s5260fdb773-2",
+          credit = "Layer Swap",
+        },
+      },
+    },
+    {
+      id = "sc33c7c79ba",
+      time = 1795190400,
+      category = "Guides",
+      headline = "Krol'dok Compound Key opens a shortcut to the final boss",
+      dek = "Bring leather and iron bars to your first Krol'dok Stronghold run and future runs get a fast lane to Overlord Mugg.",
+      body = { "Krol'dok Stronghold, one of the nine new Forever dungeons, hides a key that makes repeat runs much quicker. Kill the NPC Tunk inside to get the quest item for Krol'dok Moulding, then turn it in to Kreza Darkthorn in Rog'mar for Horde or Alphonse Dumas in Farholde Keep for Alliance, both in Riverglades.", "Pack 4 Thick Leather and 12 Iron Bar beforehand and you can finish the follow-up, Key Ingredients, on the spot to get the Krol'dok Compound Key. The two quests are worth about 7,000 XP combined.", "The key opens two doors: one directly behind the second boss, Twilight Commander Zarmok, and the Krol'dok Gate on the left path near where Tunk stood. That route leads straight to Overlord Mugg, handy if you are farming the Emblem of Slamming trinket." },
+      bullets = { "Quest item drops from Tunk inside Krol'dok Stronghold.", "Bring 4 Thick Leather and 12 Iron Bar for Key Ingredients.", "Both quests give about 7,000 XP combined.", "Key unlocks two doors leading to final boss Overlord Mugg." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+        },
+      },
+      images = {
+        {
+          file = "news\\sc33c7c79ba-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\sc33c7c79ba-2",
+          credit = "Wowhead",
+          caption = "Krol'dok Moulding Quest",
+        },
+        {
+          file = "news\\sc33c7c79ba-3",
+          credit = "Wowhead",
+          caption = "Krol'dok Moulding Quest",
+        },
+      },
+    },
+    {
+      id = "sa740957d39",
+      time = 1795186800,
+      category = "Guides",
+      headline = "Every dungeon quest for the level 30 to 40 bracket in one list",
+      dek = "Grab your dungeon quests before you queue and squeeze far more XP out of every run in your 30s.",
+      body = { "Wowhead has rounded up the dungeon quests for the level 30 to 40 bracket, covering Gnomeregan, City of Dalaran, Razorfen Kraul, Scarlet Monastery and the new Forever dungeon, The Drowned City.", "A word of warning about The Drowned City: it is a long one, taking at least an hour on average, so do not start it right before bed. Several of its quests unlock in Southshore only after a chain that ends with Troll Witchery, so start that early.", "City of Dalaran technically sits in this bracket too, and many players run it in their late 20s if you want an easier warm-up." },
+      bullets = { "Covers Gnomeregan, City of Dalaran, Razorfen Kraul, Scarlet Monastery and The Drowned City.", "The Drowned City runs at least an hour on average.", "Scarlet Monastery Armory and Cathedral fall in the 30 to 40 range." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\sa740957d39-1",
+          credit = "Wowhead",
+        },
+      },
+    },
     {
       id = "s0f573a3204",
       time = 1795149314,
@@ -28,6 +188,10 @@ AzerothAfterDarkNews = {
         {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/skyborne-players-are-getting-10-off-mounts-in-wow-forever-without-honored/",
         },
       },
       images = {
@@ -268,175 +432,6 @@ AzerothAfterDarkNews = {
         {
           file = "news\\s33457a0c4e-2",
           credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "sb412ba1226",
-      time = 1795112214,
-      category = "Community",
-      headline = "Podcast board says Study The Well, and secret hunters are on it",
-      dek = "A new hidden clue is live, and explorers think it points to a well in Mount Hyjal.",
-      body = { "Every podcast episode hides a message on the board behind the developers, and this week it read STUDY THE WELL along with a string of numbers.", "The Secret Finders Discord has already narrowed it down to one well in Mount Hyjal. Past board messages have led to beta codes, coordinates for a scenic spot and secret codes, so nobody knows yet what this one unlocks. Expect it to be cracked soon." },
-      bullets = {},
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383929/study-the-well-wow-forever-podcast-board-message-hints-at-new-brainteaser",
-        },
-      },
-      images = {
-        {
-          file = "news\\sb412ba1226-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sb412ba1226-2",
-          credit = "Wowhead",
-          caption = "Study the Well",
-        },
-      },
-    },
-    {
-      id = "scb836fdb05",
-      time = 1795100400,
-      category = "Guides",
-      headline = "Any class can earn a free 16-slot Red Bag from an old SoD questline",
-      dek = "A Season of Discovery quest chain is now open to everyone in Forever and pays out a free 16-slot bag.",
-      body = { "The old Warrior Shockwave rune questline from Season of Discovery is in Forever, and any class can do it. Partway through you get the Red Bag, a free 16-slot bag. It lowers stealth by 2, which only matters to Rogues and Druids.", "The chain starts at a Half-Buried Mech off southern Tanaris and goes through Everlook and Burning Steppes, with level 59 mobs along the way.", "It ends with Rift Away against Harvest Golem V000-A, an elite with over 200,000 health. Bring a healer and some damage dealers for Sun Shades transmog and the Ingenious Toy." },
-      bullets = { "Start: Half-Buried Mech off the southern coast of Tanaris.", "Red Bag: 16 slots, minus 2 stealth for Rogues and Druids.", "Final boss: Harvest Golem V000-A, elite, over 200k health.", "Rewards include Sun Shades transmog and Ingenious Toy." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383896/earn-a-free-16-slot-bag-from-a-former-sod-questline-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\scb836fdb05-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\scb836fdb05-2",
-          credit = "Wowhead",
-          caption = "Free 16-Slot Bag",
-        },
-        {
-          file = "news\\scb836fdb05-3",
-          credit = "Wowhead",
-          caption = "Free 16-Slot Bag",
-        },
-      },
-    },
-    {
-      id = "s6bf70b7f60",
-      time = 1795051522,
-      category = "Guides",
-      headline = "Turn on in-world quest markers with one console command",
-      dek = "A yellow diamond can mark your quest goal right in the world, so you can skip the map and the extra addon.",
-      body = { "Because Forever runs on the Retail client, it already borrows plenty of modern questing help: objectives on the map, and mobs that show when you need them for a quest. One Retail extra is hidden, though, and you have to switch it on yourself.", "Type /console showInGameNavigation 1 into chat and a yellow diamond appears in the world over the quest you have selected. It points to objectives, specific destinations and turn-ins once a quest is done.", "It really shines when the goal is above or below you, since a flat map is bad at showing height. The diamond sits on the exact spot you need to reach." },
-      bullets = { "Command: /console showInGameNavigation 1", "Marks the selected quest's objective or turn-in directly in the world.", "Most useful when the target is on a different floor or elevation." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s6bf70b7f60-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s6bf70b7f60-2",
-          credit = "Wowhead",
-          caption = "Yellow Diamond",
-        },
-        {
-          file = "news\\s6bf70b7f60-3",
-          credit = "Wowhead",
-          caption = "Specific Item",
-        },
-      },
-    },
-    {
-      id = "s77a79e3149",
-      time = 1795031528,
-      category = "Guides",
-      headline = "Weekly gold quest sends level 60s into Blackrock Spire and Depths",
-      dek = "This week's Booty Bay quest swaps Dire Maul for a Blackrock run, and its satchel can hold up to 100 gold.",
-      body = { "After two weeks of Dire Maul, the level 60 weekly from Booty Bay has moved on. This week it is In Demand - Blackrock Legal Records, and it takes you through both Blackrock Spire and Blackrock Depths.", "You need three documents: one from General Drakkisath and one from Overlord Wyrmthalak in Blackrock Spire, plus the Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths. Hand them all to Pix Xizzix in Booty Bay.", "Like last week, the reward is an Undermine Satchel worth up to 100 gold, plus some crafting materials. It can also hold vendor items such as a Gold Ring that sells for 100g." },
-      bullets = { "Quest: In Demand - Blackrock Legal Records, picked up in Booty Bay at level 60.", "Bosses: General Drakkisath, Overlord Wyrmthalak, Emperor Thaurissan.", "Reward: Undermine Satchel with up to 100 gold and extra materials." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s77a79e3149-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s93db857673",
-      time = 1795028129,
-      category = "News",
-      headline = "Blizzard PvP video: Rank Points set your rank, Honor buys the gear",
-      dek = "Max rank and its raid-level epic weapons are in reach for everyone, around halfway through each PvP season.",
-      body = { "Blizzard has put out a video explaining how PvP works in Forever. The big change: Honor no longer decides your rank. You climb with Rank Points, and Honor is now just a currency for PvP gear and consumables.", "Rank Points come from daily and weekly PvP quests, weekly battlegrounds, the new Season's Journey quests and world PvP events like the Gurubashi Arena. The Season's Journey is the biggest source, with a new quest each week.", "Higher rank unlocks better rewards to spend Honor on: a faction tabard at Rank 1, rare armor that can be upgraded to epic from Rank 8, and epic weapons on par with raid gear at Rank 14. Missed weeks can be made up later in the season." },
-      bullets = { "Rank Points decide your PvP rank; Honor is spent on rewards.", "Season's Journey quests are the biggest Rank Point source, with catch-up for missed weeks.", "Rank 14 unlocks epic weapons comparable to raid gear.", "Max rank is expected around week 8 or 9, about halfway through a season." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/how-honor-rewards-battlegrounds-work-in-wow-forever/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
-        },
-      },
-      images = {
-        {
-          file = "news\\s93db857673-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s93db857673-2",
-          credit = "Icy Veins",
-          caption = "Gurubashi Arena",
-        },
-        {
-          file = "news\\s93db857673-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s6c3f71331c",
-      time = 1795019547,
-      category = "News",
-      headline = "Auction House minimum deposit drops from 1 silver to 1 copper",
-      dek = "Cheap low-level materials are finally worth listing, since the deposit no longer costs more than the item.",
-      body = { "Blizzard said more than a week ago that the Auction House deposit would change, and the weekly reset finally brought it. The flat 1 silver minimum on every listing is gone, and the floor is back down to 1 copper.", "On the faction auction houses, the deposit now follows the vendor price and how long you list for. That is good news for anyone selling cheap early-level materials, who were paying more to list them than they were worth." },
-      bullets = { "2 hour listing: deposit is 5% of vendor price.", "8 hour listing: deposit is 20% of vendor price.", "24 hour listing: deposit is 60% of vendor price." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s6c3f71331c-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s6c3f71331c-2",
-          credit = "Wowhead",
-          caption = "Minimum Deposit",
         },
       },
     },
