@@ -1,9 +1,111 @@
--- Azeroth After Dark news edition 2026-11-21. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-22. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795266162,
-  edition = "2026-11-21",
+  generated = 1795352509,
+  edition = "2026-11-22",
   stories = {
+    {
+      id = "se525dbbf2d",
+      time = 1795306796,
+      category = "Guides",
+      headline = "Hunters can tame Mystmane, a level 13 AoE bear, on Zephras Isle",
+      dek = "A Swipe-using bear pet you can grab at level 13, as long as you can outlast its shared spawn timer.",
+      body = { "Hunters on Skyborne's new starting island, Zephras Isle, have a early pet worth chasing. Mystmane is a level 13 bear that wanders Shadowgale Forest, roughly between 60.0, 33.5 and 59.3, 37.3 near the treeline, and it brings Swipe for area damage on top of the usual Claw and Bite.", "The catch is patience. Mystmane shares its spawn with the other bears in the area, so clearing them out helps move things along. Some players report waits of two to three hours, while others got lucky by farming bears nonstop.", "Bring Track Beasts and a target macro for its name to spot it fast. Expect the tame to fail once or twice, since Mystmane knocks you down mid-cast, and pack Fish, Bread, Fruit or Fungus to build loyalty afterward." },
+      bullets = { "You must be at least level 13 to tame it.", "Attack speed is 1.6 seconds, with Swipe, Claw and Bite.", "Killing nearby bears can help reset the shared spawn timer." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/this-level-13-bear-is-an-aoe-tank-pet-hunters-can-tame-early-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\se525dbbf2d-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s0d610a315c",
+      time = 1795289642,
+      category = "Guides",
+      headline = "New Forever toy turns you into a Furbolg, three minutes at a time",
+      dek = "A purely cosmetic toy from an Ashenvale quest chain that lets you stay a Furbolg nearly nonstop, on either faction.",
+      body = { "Ever wanted to spend an evening as a Furbolg? The Replica Dartol's Rod of Transformation toy does exactly that. It has no gameplay value, but it is a fun bit of cosmetic flair.", "The chain starts with Raene's Cleansing from Raene Wolfrunner in Astranaar, around 36.6, 49.6. It has to be done on an Alliance character, but once unlocked the toy works for both factions. Expect a tour of Ashenvale: Lake Falathim murlocs, treants for a Wooden Key, slimes for a Rusty Chest, and finally the Hidden Shrine.", "The transformation lasts three minutes on a one-minute cooldown, so you can keep it up almost forever. Just avoid taking damage, because any hit snaps you back to normal." },
+      bullets = { "Quest chain begins with Raene's Cleansing in Astranaar.", "Alliance-only to earn, usable by both factions afterward.", "Lasts 3 minutes, 1 minute cooldown, breaks on damage." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/transform-into-a-furbolg-indefinitely-with-this-new-wow-forever-toy/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s0d610a315c-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s0d610a315c-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s02c615ab37",
+      time = 1795283282,
+      category = "Guides",
+      headline = "Legacy Points can turn fresh alts into one-shot machines",
+      dek = "Account-wide Legacy Points can give a brand new alt real power from the first levels, and two cheap professions get you started.",
+      body = { "The Legacy Point system is account-wide, and many players are sleeping on how strong it makes new alts. To use it on alts you need one character at level 25 or higher, or a qualifying profession at 150: Alchemy, Blacksmithing, Enchanting, Engineering, Leatherworking or Tailoring.", "Points come from leveling classes and professions, PvP, challenges, dungeons and raids. The points and cosmetics are shared across your account, while each character picks its own perks, and players are spending them on extra rested XP and early power.", "The cheap route is Alchemy plus Enchanting: two professions at 150 give two points, and taking both to 225 gives four. One Paladin used 10 points to unlock talents at level 5, grabbed Seal of Command at 15 and was one-shotting mobs to 25. Stack weapon enchants, the new faction buffs and campfire buffs for even more." },
+      bullets = { "Unlock on alts needs a level 25 character or a level 150 qualifying profession.", "Points and cosmetics are account-wide; perks are chosen per character.", "Alchemy and Enchanting are the cheapest professions to level for points.", "Might of Stormwind or Warchief's Blessing adds 300% health and 15% haste." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/one-shot-mobs-on-your-alts-with-legacy-points-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s02c615ab37-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s02c615ab37-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s64c4dfd905",
+      time = 1795273200,
+      category = "Guides",
+      headline = "Every quest to grab before the new Alcaz Prison dungeon",
+      dek = "Heading into the level 50 Dustwallow dungeon? Pick up these quests first, plus a hidden one worth 25 gold.",
+      body = { "Alcaz Prison is a new dungeon on Alcaz Island in northeast Dustwallow Marsh, aimed at players around level 50. It is a quick one, likely about 30 minutes for a full run.", "Each faction gets three quests from outside the dungeon. Alliance chains start with Master Mathias Shaw in Stormwind's Old Town and lead to Sully McCleary at the Theramore Graveyard. Horde chains begin with Eitrigg in Orgrimmar and lead to Sergeant Ulka on Alcaz Island. There is also a level 46 quest from Archmage Lan'dalock in Dalaran.", "The fun bit is a secret quest. Leave The Questioner alive, kill the final boss, and Mason Connery offers The Man in the Iron Chains, worth 25 gold." },
+      bullets = { "Alliance: A Bit of Wet Work and The Secret Prison from Sully McCleary.", "Horde: No Orc Left Behind, A Little Payback and Blood Red Bandanas from Sergeant Ulka.", "Both: The Dragon's Journal from Archmage Lan'dalock in Dalaran.", "Secret: The Man in the Iron Chains, only if The Questioner is still alive." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s64c4dfd905-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s64c4dfd905-2",
+          credit = "Wowhead",
+          caption = "Alcaz Prison Entrance WoW Forever",
+        },
+        {
+          file = "news\\s64c4dfd905-3",
+          credit = "Wowhead",
+          caption = "Alcaz Prison Entrance WoW Forever",
+        },
+      },
+    },
     {
       id = "sb7bc0e023d",
       time = 1795220616,
@@ -24,6 +126,10 @@ AzerothAfterDarkNews = {
         {
           name = "Blizzard",
           url = "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
         },
       },
       images = {
@@ -316,122 +422,6 @@ AzerothAfterDarkNews = {
         {
           file = "news\\sb15ecbfcba-1",
           credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sca06b9977c",
-      time = 1795125565,
-      category = "Guides",
-      headline = "Sealed Writs give daily Supply Faction rep, no profession needed",
-      dek = "Looting a Sealed Writ starts a quest worth up to 200 Supply rep, the key to exclusive profession recipes.",
-      body = { "Sealed Journeyman's, Expert's and Artisan's Writs can drop from chests, dungeons and mobs level 10 or higher, with better tiers in higher-level zones. Right-click one to start a crafting order quest.", "You do not need the matching profession, since the item can be bought on the Auction House. Turning it in grants 75, 125 or 200 reputation with the Azeroth Commerce Authority or Durotar Supply and Logistics. That is separate from Merchant's Favor.", "Each writ can be turned in once a day, but 44 different Journeyman writs have been found so far, so lucky players can stack a lot of rep." },
-      bullets = { "Rewards: 75 rep Journeyman, 125 Expert, 200 Artisan.", "Alliance: Azeroth Commerce Authority. Horde: Durotar Supply and Logistics.", "Each writ is once per day; 44 Journeyman versions found so far." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/sealed-writs-are-a-daily-source-of-supply-faction-reputation-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sca06b9977c-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sca06b9977c-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s2b14ad21ad",
-      time = 1795124866,
-      category = "Guides",
-      headline = "Recovery enchant heals you when enemies dodge or parry",
-      dek = "Cleave Warriors are farming packs with a weapon enchant that restores 5% health on dodges and parries.",
-      body = { "Enchant Weapon - Recovery heals you for 5% of your max health whenever one of your melee swings is dodged or parried, with a 10-second internal cooldown. It seems to proc less on low-level mobs.", "It shines for Warriors pulling big packs in the open world, cutting downtime for a class with little regeneration. Anyone in melee can use it.", "The recipe costs 45 Merchant's Favor, with no reputation needed, from Lindsia at Three Corners in Redridge for Alliance or Beneris outside the Crossroads for Horde. The enchanter needs skill 140." },
-      bullets = { "Effect: heal 5% max health on dodge or parry, 10 sec cooldown.", "Recipe: 45 Merchant's Favor, no Supply reputation required.", "Enchanting 140 needed.", "Mats: 6 Soul Dust, 4 Large Glimmering Shard, 6 Greater Astral Essence, 4 Pyrite, 4 Silver Ore." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/players-are-healing-off-enemy-dodges-and-parries-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s2b14ad21ad-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s2b14ad21ad-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s6cb9e5ac60",
-      time = 1795118138,
-      category = "News",
-      headline = "Forever Podcast Ep. 8: healer shortage, PvP burst, class tuning",
-      dek = "The devs admit dungeons need more healers and say no Resilience-style stat is coming for bursty PvP.",
-      body = { "Episode 8 of the official WoW: Forever Podcast is out, with host Countdown To Classic joined by designers Aidan Moon and Kris Zierhut to talk classes, itemization and gear.", "The team admitted leveling dungeons are short on healers and said they are exploring ways to reward people who heal, though nothing concrete was announced. On the 100 gold weekly quest, they explained it was meant to help casual players, but they do not want weekly chores to pile up in Forever.", "PvP damage feels burstier than Vanilla because classes gained more tools while health did not keep pace. More Stamina on gear is one idea, but a damage-reduction stat like Resilience is off the table. The second half goes class by class. With US Thanksgiving next week, expect a break, then a raid-focused episode." },
-      bullets = { "Healers: shortage in leveling dungeons acknowledged, incentives being explored.", "Weekly gold quest: no plans to add more weekly quests.", "PvP: no Resilience-style stat; more Stamina on gear is being considered.", "Next episode after Thanksgiving will focus on raids." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/healer-shortage-pvp-balance-class-tuning-the-wow-forever-podcast-ep-8/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383926/wow-forever-podcast-episode-8-classes-itemization-and-bis",
-        },
-        {
-          name = "Blizzard",
-          url = "https://worldofwarcraft.blizzard.com/en-us/news/24317086",
-        },
-      },
-      images = {
-        {
-          file = "news\\s6cb9e5ac60-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s6cb9e5ac60-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s6cb9e5ac60-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s33457a0c4e",
-      time = 1795115961,
-      category = "News",
-      headline = "Zirene wants to kill BiS lists and teases a full-bags stat item",
-      dek = "Forever gear is built around the fight in front of you, and future items may reward hoarders with packed bags.",
-      body = { "Senior Game Designer Aidan Moon, known as Zirene, said on the podcast that he wants to do away with the idea of one best-in-slot list. Creature subtypes and biomes are meant to make the right gear depend on the boss and the setting.", "He gave the raid as an example: one wing is snowy and the other haunted, so the best kit should shift from fight to fight. The devs also said bigger bags and better ways to sort items are coming as more of this niche gear arrives.", "Asked for a tease, Zirene floated an item that might grant extra stats when your bags are completely full, joking it could be Master Looter best-in-slot." },
-      bullets = { "Gear choices are meant to change by creature type and biome, boss to boss.", "Raid wings will have different biomes, such as snowy and haunted.", "Bigger bags and better item search are planned.", "Teased: a possible item granting bonus stats while bags are full." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383931/blizzard-wants-to-get-rid-of-bis-in-wow-forever",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383927/zirene-teases-item-granting-bonus-stats-when-bags-are-full",
-        },
-      },
-      images = {
-        {
-          file = "news\\s33457a0c4e-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s33457a0c4e-2",
-          credit = "Wowhead",
         },
       },
     },
