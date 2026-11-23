@@ -1,9 +1,232 @@
--- Azeroth After Dark news edition 2026-11-22. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-23. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795352509,
-  edition = "2026-11-22",
+  generated = 1795438939,
+  edition = "2026-11-23",
   stories = {
+    {
+      id = "se850d26fbc",
+      time = 1795395637,
+      category = "Hotfixes",
+      headline = "Uldaman's Obsidian Sentinel stops dropping loot after gold farm",
+      dek = "A favorite quick solo gold farm is gone, and with it the only way to build the Pendulum of Doom leveling weapon.",
+      body = { "The Obsidian Sentinel, the Uldaman boss sitting just inside the back entrance, has had its blue loot table wiped. Solo farmers could reach him with no trash and finish a run in under five minutes, averaging around 1.77 gold per kill. Wowhead's test kill now coughs up only junk and Solid Stone.", "Blizzard has not listed the change in any hotfix post, but the target looks like the gold farm. The side effect hurts levelers: the Sentinel's Axe of Lingering Dread was one half of the Pendulum of Doom, combined with Ironaya's Axe of Inevitable Ruin. Without it, the Pendulum can no longer be made." },
+      bullets = { "Uldaman: Obsidian Sentinel no longer drops any blue gear.", "Removed drops include Rock Sentinel Slicer, Dark Golem Breastplate, White Obsidian Wand and Axe of Lingering Dread.", "Pendulum of Doom can no longer be obtained, since one of its two axes is gone.", "Change was undocumented in Blizzard's hotfix posts." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+        },
+      },
+      images = {
+        {
+          file = "news\\se850d26fbc-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\se850d26fbc-2",
+          credit = "Wowhead",
+          caption = "Obsidian Sentinel Loot",
+        },
+      },
+    },
+    {
+      id = "s0af5a09740",
+      time = 1795391897,
+      category = "News",
+      headline = "World Buffs vanishing on loading screens is a bug, fix promised",
+      dek = "Warchief's Blessing, Might of Stormwind and DMT buffs drop on any loading screen for now, so keep them for the open world until the fix lands.",
+      body = { "If your world buffs have been evaporating the second a loading screen pops, you are not imagining it. Warchief's Blessing, Might of Stormwind and the Dire Maul Tribute buffs were all being wiped on any load, including logging in, hearthing between cities, portals and dungeon entrances.", "That quietly killed the popular trick of carrying those buffs into dungeons or onto the other continent. Some players assumed Blizzard did it on purpose, but Senior Game Designer Aidan Moon said on X that it is not intended.", "According to Moon, the culprit was a fix for the Battle Shout from the Diamond Flask quest, which was recasting on every zone change and spreading from player to player. Patching that broke world buffs, and he said a fix was due the day after his November 22 post. Until it is confirmed live, avoid loading screens while buffed." },
+      bullets = { "World Buffs: currently removed by any loading screen, including login, hearth, portals and dungeons.", "Aidan Moon confirmed it is a bug caused by a Diamond Flask Battle Shout fix.", "Once fixed, buffs should work again in dungeons and on the opposite continent. They still do not work in raids." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/blizzard-accidentally-changed-world-buffs-in-wow-forever-making-them-disappear-during-loading-screens/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s0af5a09740-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s0af5a09740-2",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s0af5a09740-3",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s675a4b09be",
+      time = 1795384087,
+      category = "Guides",
+      headline = "Four echoes and a statue puzzle unlock the Scarlet Banner",
+      dek = "A hidden Scarlet Monastery puzzle rewards a cosmetic campfire decoration that may matter more later on.",
+      body = { "Campfires got a new trick in Forever: you can dress them up with extra features. One of them, the Scarlet Banner, is hidden behind a little scavenger hunt. Right now it is purely cosmetic, but it could pick up a use down the line.", "Collect four echoes, keep them in your bags and head into the Scarlet Monastery Library. Use each echo on its matching statue in the right order and a glowing item appears in the middle of the room. Get the order wrong and you will have to reset the instance." },
+      bullets = { "Echoes: SM Graveyard, Gooch Farm in Arathi (62, 54), Dustwallow Marsh (63.7, 42.5), Swamp of Sorrows (16.8, 53.8).", "Statue order: Warrior with Swamp, Mage with Arathi, Paladin with Theramore, Priest with Graveyard.", "A wrong order means resetting the instance and starting over." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/scarlet-monastery-has-a-hidden-scarlet-banner-reward-in-wow-forever-heres-how-to-get-it/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s675a4b09be-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s675a4b09be-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s12cfe61cd9",
+      time = 1795381335,
+      category = "Guides",
+      headline = "Sing to a frog on Zephras Isle to earn the Musical Gustjumper",
+      dek = "A secret pet hides in the Skyborne starting zone, and you can grab it at level one if you dodge the locals.",
+      body = { "Before you leave Zephras Isle, swing by the waterfalls at 51.5, 72.3 on the road from Thendal Village. A group of Musical Gustjumper frogs sits on a rock at the top, and a log next to it lets you hop up to them.", "Target a frog and use the /sing emote. It sings back, the rest vanish, and a new frog appears on the log. Interact with it and it is yours. You can do it at level one, but watch for the level 5 and 6 Prideclaw and Vuldren nearby." },
+      bullets = { "Location: Zephras Isle, 51.5, 72.3, top of the waterfalls.", "Target a frog, type /sing, then interact with the frog that spawns on the log.", "Level 5 and 6 enemies patrol the area." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/dont-leave-zephras-isle-without-finding-this-secret-pet-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s12cfe61cd9-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s12cfe61cd9-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s12cfe61cd9-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "saac2434284",
+      time = 1795381203,
+      category = "Hotfixes",
+      headline = "Rogues can no longer peek inside lockboxes after reroll exploit",
+      dek = "Opening a lockbox with auto-loot off now just loots it straight to your bags, closing a trick that could reroll the contents.",
+      body = { "Rogues used to switch off auto-loot, pick a lockbox and take a look at what was inside before mailing it back to its owner. With Mithril Lockboxes holding pricey items like recipes, it was a fun bit of nosiness.", "Then a Reddit user found the contents shown to the peeking Rogue could differ from what the owner got after the box came back in the mail, meaning loot could be rerolled. A recent hotfix ends it: trying to peek now automatically loots the box into your inventory. Picking locks for other players still works, just no browsing." },
+      bullets = { "Lockpicking: peeking inside an unlooted lockbox is no longer possible.", "Opening a lockbox now auto-loots its contents into your bags.", "Change follows reports that peeking could reroll lockbox contents." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
+        },
+      },
+      images = {
+        {
+          file = "news\\saac2434284-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "scb744c8b3c",
+      time = 1795373544,
+      category = "Guides",
+      headline = "Forsaken Paladins can earn Wolfsbane, an exclusive two-hander",
+      dek = "A hidden questline from level 18 ends in a rare weapon well ahead of normal quest rewards, if you can take down a level 25 elite.",
+      body = { "Forsaken Paladins get a weapon nobody else can have. Wolfsbane is a rare, item level 31 two-hander with 69 to 105 damage, 3.40 speed, plus 9 Stamina and 10 Intellect. Its chance on hit blasts the target with Holystorm damage, and it hits Wolves and Worgen three times as hard.", "Start at level 18 by talking to Danitha Morr at Bandarion Keep in the Whispering Wood, Tirisfal Glades (around 22.0, 44.6). At level 20 you can take A Moon-Kissed Blade, forge the Moonsilver Blade, and finish by beating the level 25 elite worgen Old Fire-Eye." },
+      bullets = { "Start: Danitha Morr, Bandarion Keep, Tirisfal Glades, level 18.", "Follow-up quest A Moon-Kissed Blade needs level 20.", "Final step: defeat Old Fire-Eye, a level 25 elite worgen." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/forsaken-paladins-in-wow-forever-get-a-hidden-weapon-other-classes-cant-have/",
+        },
+      },
+      images = {
+        {
+          file = "news\\scb744c8b3c-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\scb744c8b3c-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "sc835e266be",
+      time = 1795369748,
+      category = "Guides",
+      headline = "40 hidden books earn every class rings, amulets and a bow",
+      dek = "Those books you keep walking past can be turned in at the library for real gear, and in Forever every class can claim the rewards.",
+      body = { "Scattered across the world are 40 hidden books that most players spot and ignore. Hand them in and you get lore-heavy questlines plus actual gear. They came from Season of Discovery, where they were tied to a Mage rune, but in Forever any class can cash them in.", "There are four questlines at different book counts, and the last set needs you to be level 50. Alliance hands books to the Librarian in the Stormwind Mage Tower (49.0, 86.4); Horde goes to the Undercity Magic Quarter (74.0, 32.4). Mages also get the Study ability at level 6 for their first book." },
+      bullets = { "10 books: Scholarly Pendant or Erudite's Amulet.", "20 books: Field Researcher's Loop or Philanthropist's Ring.", "25 books: Truthseeker's Bow, Crest of Elucidation or Researcher's Night Light.", "Books turn up in Arathi Highlands, Dustwallow Marsh, Alterac Mountains, The Barrens, Ironforge and more." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-players-are-skipping-40-hidden-books-that-give-gear/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sc835e266be-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\sc835e266be-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\sc835e266be-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s27eaea43eb",
+      time = 1795359600,
+      category = "Guides",
+      headline = "Blackrock Depths lockpicking trick is out, Tyr's Hand is in",
+      dek = "Rogues pushing Lockpicking to 300 should skip the old BRD door route and head to Eastern Plaguelands instead.",
+      body = { "In Classic, Rogues took Lockpicking from 250 to 300 by working the Shadowforge doors and lock in Blackrock Depths. In Forever, testing shows the Shadowforge lock goes grey around 265, so that route stalls early.", "The new go-to is Tyr's Hand in Eastern Plaguelands, packed with elite mobs and Scarlet Footlockers to pick. It is worth the trouble: at 300 you can open the Dire Maul North door without the Crescent Key, plus earn some gold opening lockboxes for other players." },
+      bullets = { "Shadowforge lock in BRD turns grey around Lockpicking 265.", "Best spot now: Scarlet Footlockers at Tyr's Hand, Eastern Plaguelands.", "300 Lockpicking opens the Dire Maul North door without the Crescent Key." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s27eaea43eb-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s27eaea43eb-2",
+          credit = "Wowhead",
+          caption = "Lockpicking Level 268",
+        },
+        {
+          file = "news\\s27eaea43eb-3",
+          credit = "Wowhead",
+          caption = "Lockpicking in Tyr's Hand",
+        },
+      },
+    },
     {
       id = "se525dbbf2d",
       time = 1795306796,
@@ -215,213 +438,6 @@ AzerothAfterDarkNews = {
         {
           file = "news\\s5260fdb773-2",
           credit = "Layer Swap",
-        },
-      },
-    },
-    {
-      id = "sc33c7c79ba",
-      time = 1795190400,
-      category = "Guides",
-      headline = "Krol'dok Compound Key opens a shortcut to the final boss",
-      dek = "Bring leather and iron bars to your first Krol'dok Stronghold run and future runs get a fast lane to Overlord Mugg.",
-      body = { "Krol'dok Stronghold, one of the nine new Forever dungeons, hides a key that makes repeat runs much quicker. Kill the NPC Tunk inside to get the quest item for Krol'dok Moulding, then turn it in to Kreza Darkthorn in Rog'mar for Horde or Alphonse Dumas in Farholde Keep for Alliance, both in Riverglades.", "Pack 4 Thick Leather and 12 Iron Bar beforehand and you can finish the follow-up, Key Ingredients, on the spot to get the Krol'dok Compound Key. The two quests are worth about 7,000 XP combined.", "The key opens two doors: one directly behind the second boss, Twilight Commander Zarmok, and the Krol'dok Gate on the left path near where Tunk stood. That route leads straight to Overlord Mugg, handy if you are farming the Emblem of Slamming trinket." },
-      bullets = { "Quest item drops from Tunk inside Krol'dok Stronghold.", "Bring 4 Thick Leather and 12 Iron Bar for Key Ingredients.", "Both quests give about 7,000 XP combined.", "Key unlocks two doors leading to final boss Overlord Mugg." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
-        },
-      },
-      images = {
-        {
-          file = "news\\sc33c7c79ba-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sc33c7c79ba-2",
-          credit = "Wowhead",
-          caption = "Krol'dok Moulding Quest",
-        },
-        {
-          file = "news\\sc33c7c79ba-3",
-          credit = "Wowhead",
-          caption = "Krol'dok Moulding Quest",
-        },
-      },
-    },
-    {
-      id = "sa740957d39",
-      time = 1795186800,
-      category = "Guides",
-      headline = "Every dungeon quest for the level 30 to 40 bracket in one list",
-      dek = "Grab your dungeon quests before you queue and squeeze far more XP out of every run in your 30s.",
-      body = { "Wowhead has rounded up the dungeon quests for the level 30 to 40 bracket, covering Gnomeregan, City of Dalaran, Razorfen Kraul, Scarlet Monastery and the new Forever dungeon, The Drowned City.", "A word of warning about The Drowned City: it is a long one, taking at least an hour on average, so do not start it right before bed. Several of its quests unlock in Southshore only after a chain that ends with Troll Witchery, so start that early.", "City of Dalaran technically sits in this bracket too, and many players run it in their late 20s if you want an easier warm-up." },
-      bullets = { "Covers Gnomeregan, City of Dalaran, Razorfen Kraul, Scarlet Monastery and The Drowned City.", "The Drowned City runs at least an hour on average.", "Scarlet Monastery Armory and Cathedral fall in the 30 to 40 range." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\sa740957d39-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s0f573a3204",
-      time = 1795149314,
-      category = "Hotfixes",
-      headline = "Hotfixes: Seed Hybridizer returns, Motes go soulbound, Skyborne discount",
-      dek = "Campers get their Hybridizer back, Ret Paladins get a fix, and the Mote of Unstable Magic gold trick is over.",
-      body = { "Blizzard pushed another round of Forever hotfixes on November 19, a little smaller than recent batches. The headline for campers: the Seed Hybridizer is switched back on, with new values and a real chance your seed combination fails.", "Gold makers, take note. Motes of Unstable Magic became soulbound around noon Pacific, so they can no longer be sold on the Auction House. Anything you farm now is for your own reputation turn-ins, and spares past Honored only go to a vendor. Blizzard did not say why.", "Skyborne finally get the Honored 10% discount on riding training from Genn Fairweather on Zephras Isle. The catch is that their reputation past Friendly comes from cloth turn-ins, ending in repeatable Runecloth donations, so run the numbers before you buy the cloth." },
-      bullets = { "Camping: Seed Hybridizer re-enabled, with adjusted values and a chance of failure when combining seeds.", "Camping: Scarce Herb Seeds can no longer go into the Seed Hybridizer.", "Paladin: Retribution's Two-Handed Weapon Specialization now boosts all Holy damage with a two-hander.", "City of Dalaran: Shade of the Archmage no longer despawns the moment combat starts.", "The Shaper's Terrace: Vitrix's Poison Shock damage reduced.", "Riverglades: Mosh'gra can now actually drop its rare loot.", "Shimmering Flats: Silithid Hive Drone stuck under the world near Rustmaul Dig Site fixed.", "Items: Motes of Unstable Magic are now soulbound; Squall-breaker's Potion can now be deleted.", "Quests: Stormpike's Deciphering now lets you get a new Ensorcelled Parchment if you destroyed yours.", "Quests: Hunting for Ectoplasm uses the correct creature type; Rift Away no longer grants a strange tome.", "Skyborne: Honored 10% discount now applies to Apprentice and Journeyman Riding on Zephras Isle.", "Tauren: Cultivation works more reliably on herbs you can gather and now works with Purple Lotus." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/camping-races-quest-improvements-wow-forever-hotfixes-november-19th/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383935/motes-of-unstable-magic-now-soulbound-in-wow-forever-gold-strategy-nerfed",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/skyborne-players-are-getting-10-off-mounts-in-wow-forever-without-honored/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s0f573a3204-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s0f573a3204-2",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s0f573a3204-3",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s03efa6e6bb",
-      time = 1795140549,
-      category = "News",
-      headline = "Blizzard is looking into three bugged quests",
-      dek = "Stuck on Call of Earth, Biding Our Time or Witch Doctor Ti'ik? Blizzard knows, but there is no fix date yet.",
-      body = { "The official BlizzardCS account has left notes on three Forever quests confirming the bugs are being investigated.", "Call of Earth is not giving level 3 Skyborne Shamans their Stoneskin Totem. In Witch Doctor Ti'ik, the head drops for only one member of a group. And Biding Our Time can hand out a reward showing a red question mark that cannot be used, though some players say their cloak has since come through fine.", "No timeline was given. If you are grouping for Ti'ik, it may be worth doing it one at a time for now." },
-      bullets = { "Call of Earth: level 3 Skyborne Shamans don't receive Stoneskin Totem.", "Witch Doctor Ti'ik: the head drops for only one party member.", "Biding Our Time: reward can appear as an unusable red question mark item." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s03efa6e6bb-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s8bf9b3588b",
-      time = 1795135327,
-      category = "News",
-      headline = "Devs admit Spell Power gear is too thin while leveling",
-      dek = "Leveling a caster and finding little Spell Power gear? Blizzard agrees and plans to add more around levels 15 to 40.",
-      body = { "Caster damage was lowered at baseline in Forever on purpose, with new Spell Power gear meant to make up the difference so casters care about upgrades as much as Warriors and Rogues do.", "On the latest podcast, Kris Zierhut said the team probably added a bit too little of it, partly out of caution about how big the change was. The gear does exist, but the 15 to 40 range is thinner than it should be.", "The plan is to add more Spell Power items for leveling in future patches. No date yet, so Mages and Warlocks will have to hunt a little harder for now." },
-      bullets = {},
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s8bf9b3588b-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "sbe956cf5da",
-      time = 1795130447,
-      category = "News",
-      headline = "Some EU players can't get Battleground queues to pop",
-      dek = "If your EU Battleground queue never pops, a bugged layer may be to blame; a friend's group queue can help.",
-      body = { "Players on some EU realms report that Battleground queues never pop unless they switch layers, according to posts on the forums and Reddit. Some also mention trouble with Honor gains.", "Players suspect certain EU layers are bugged, with some pointing to one home layer in particular. Blizzard has not commented in the report.", "If you are stuck, try getting a friend to queue you as a group, or change layers by joining a party." },
-      bullets = {},
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\sbe956cf5da-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sbe956cf5da-2",
-          credit = "Wowhead",
-          caption = "Battle.net Forums",
-        },
-      },
-    },
-    {
-      id = "s8410238c3e",
-      time = 1795127630,
-      category = "Guides",
-      headline = "Pre-raid DPS tier list: Fury on top, Ret right behind",
-      dek = "Deciding on a main for raids? Fury, Ret, Demonology and all three Hunter specs make the S tier.",
-      body = { "Icy Veins has published its pre-raid DPS rankings for Forever, two weeks in. Fury Warrior takes first, praised for its cleave, Execute and group buffs, with Retribution Paladin a slightly surprising second.", "Demonology is the only caster in S tier, joined by all three Hunter specs. Classes are still changing often, so expect this list to move before raids open." },
-      bullets = { "S tier: Fury Warrior, Retribution Paladin, Demonology Warlock.", "S tier: Survival, Marksmanship and Beast Mastery Hunter.", "A tier: Feral, Affliction, Arcane, Enhancement, Destruction, Fire." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-pre-raid-dps-tier-list-now-live/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s8410238c3e-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sb15ecbfcba",
-      time = 1795126216,
-      category = "Events",
-      headline = "Win water-walking Surfer Shoes at Sunday's fishing contest",
-      dek = "Now 250 players per ruleset can win the Stranglethorn Extravaganza, and the prize lets you walk on water.",
-      body = { "The Surfer Shoes are new Rare cloth boots exclusive to Forever. Using them gives five minutes of water walking on a one-hour cooldown, though taking or dealing damage ends it early.", "You earn them at the Stranglethorn Fishing Extravaganza, every Sunday at 2 PM server time for two hours. Blizzard has opened it up so 250 winners per ruleset can claim a prize.", "You need at least 150 Fishing. Catch 40 Speckled Tastyfish, hand them to Riggle Bassbait in Booty Bay before the cap fills, then trade your coin to Jang for the shoes." },
-      bullets = { "When: Sundays, 2 PM server time, two hours.", "Needs: 150 Fishing skill and 40 Speckled Tastyfish.", "Up to 250 winners per ruleset.", "Shoes: item level 25, 29 armor, 10 Stamina, 5 min water walking." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/these-wow-forever-boots-let-you-walk-on-water-and-250-players-can-win-them/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sb15ecbfcba-1",
-          credit = "Icy Veins",
         },
       },
     },
