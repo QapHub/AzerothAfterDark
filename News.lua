@@ -1,7 +1,7 @@
 -- Azeroth After Dark news edition 2026-11-24. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795483345,
+  generated = 1795483647,
   edition = "2026-11-24",
   stories = {
     {
