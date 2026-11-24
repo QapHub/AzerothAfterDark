@@ -3,12 +3,14 @@
 -- Forever's Camelot FrameXML.
 local ADDON, ns = ...
 
-local W, H = 880, 560
+local W, H = 880, 600
 local PAD = 14
 local HEADER_H = 50
 local FOOTER_H = 34
 local CW = W - PAD * 2                          -- content width
 local CH = H - HEADER_H - FOOTER_H - PAD        -- content height
+local TABS_H = 28                               -- the front page's tab bar
+local BODY_Y = TABS_H + 10                      -- front page content starts below it
 local HERO_W = 500
 local HERO_IMG_H = 250
 local LIST_X = HERO_W + 18
@@ -216,6 +218,92 @@ end
 -- ------------------------------------------------------------------------------------------------ front page
 
 local rows = {}
+local tabButtons = {}
+local tab = "all"            -- the front page's tab: "all", "new" or a category
+local list = {}              -- the stories the front page shows (and Prev/Next walks)
+
+-- Category tabs, in this order when the edition has stories in them.
+local TAB_ORDER = { "Breaking", "Hotfixes", "Patch Notes", "Maintenance", "Events", "News", "Guides", "Community" }
+
+--- The tabs for this edition: { key, label, count }.
+function ns.Tabs()
+    local stories = ns.Stories()
+    local counts, unread = {}, 0
+    for _, s in ipairs(stories) do
+        local c = s.category or "News"
+        counts[c] = (counts[c] or 0) + 1
+        if ns.IsUnread(s) then unread = unread + 1 end
+    end
+    local out = { { key = "all", label = "ALL", count = #stories }, { key = "new", label = "NEW", count = unread } }
+    local listed = {}
+    for _, c in ipairs(TAB_ORDER) do
+        if counts[c] then out[#out + 1] = { key = c, label = c:upper(), count = counts[c] }; listed[c] = true end
+    end
+    for c, n in pairs(counts) do      -- a category the addon doesn't know yet still gets a tab
+        if not listed[c] then out[#out + 1] = { key = c, label = c:upper(), count = n } end
+    end
+    return out
+end
+
+--- Stories on a tab, newest first.
+function ns.Filter(key)
+    local out = {}
+    for _, s in ipairs(ns.Stories()) do
+        if key == "all" or (key == "new" and ns.IsUnread(s)) or (s.category or "News") == key then out[#out + 1] = s end
+    end
+    return out
+end
+
+function ns.Tab() return tab, list end
+
+local function getTabButton(i)
+    if tabButtons[i] then return tabButtons[i] end
+    local b = CreateFrame("Button", nil, home.tabs)
+    b:SetHeight(TABS_H)
+    b.hl = rect(b, "BACKGROUND", 1, 1, 1, 0.06)
+    b.hl:SetAllPoints()
+    b.hl:Hide()
+    b.label = text(b, HEAD_FONT, 11, MUTED)
+    b.label:SetPoint("LEFT", 10, 0)
+    b.label:SetJustifyV("MIDDLE")
+    b.line = rect(b, "ARTWORK", GOLD[1], GOLD[2], GOLD[3], 1)
+    b.line:SetPoint("BOTTOMLEFT"); b.line:SetPoint("BOTTOMRIGHT"); b.line:SetHeight(2)
+    b:SetScript("OnEnter", function(self) self.hl:Show() end)
+    b:SetScript("OnLeave", function(self) self.hl:Hide() end)
+    b:SetScript("OnClick", function(self) ns.SetTab(self.key) end)
+    tabButtons[i] = b
+    return b
+end
+
+local function refreshTabs()
+    local tabs = ns.Tabs()
+    local known = false
+    for _, t in ipairs(tabs) do if t.key == tab then known = true end end
+    if not known then tab = "all" end      -- that category left the edition
+    for _, b in ipairs(tabButtons) do b:Hide() end
+    local x, pad = 0, 20
+    -- squeeze the padding if the edition has many categories
+    local total = 0
+    for _, t in ipairs(tabs) do total = total + #t.label * 7 + 30 end
+    if total > CW then pad = 10 end
+    for i, t in ipairs(tabs) do
+        local b = getTabButton(i)
+        b.key = t.key
+        local active = t.key == tab
+        local col = (t.key == "all" or t.key == "new") and GOLD or catColor(t.key)
+        local num = t.count > 0 and ("  |cff8f8aa6" .. t.count .. "|r") or ""
+        if t.key == "new" and t.count > 0 then num = "  |cfff2c46b" .. t.count .. "|r" end
+        b.label:SetText(t.label .. num)
+        if active then b.label:SetTextColor(1, 1, 1) else b.label:SetTextColor(MUTED[1], MUTED[2], MUTED[3]) end
+        b.line:SetColorTexture(col[1], col[2], col[3], 1)
+        b.line:SetShown(active)
+        b:SetWidth((b.label:GetStringWidth() or 40) + pad)
+        b:ClearAllPoints()
+        b:SetPoint("TOPLEFT", home.tabs, "TOPLEFT", x, 0)
+        b:Show()
+        x = x + b:GetWidth() + 2
+    end
+end
 
 local function buildHome()
     home = CreateFrame("Frame", nil, f)
@@ -224,8 +312,8 @@ local function buildHome()
 
     -- the top story
     local hero = CreateFrame("Button", nil, home)
-    hero:SetPoint("TOPLEFT")
-    hero:SetSize(HERO_W, CH - PAD)
+    hero:SetPoint("TOPLEFT", 0, -BODY_Y)
+    hero:SetSize(HERO_W, CH - PAD - BODY_Y)
     hero.img = hero:CreateTexture(nil, "ARTWORK")
     hero.img:SetPoint("TOPLEFT")
     hero.img:SetSize(HERO_W, HERO_IMG_H)
@@ -262,11 +350,11 @@ local function buildHome()
 
     -- the rest
     local label = text(home, HEAD_FONT, 10, GOLD)
-    label:SetPoint("TOPLEFT", LIST_X, 0)
+    label:SetPoint("TOPLEFT", LIST_X, -BODY_Y)
     label:SetText("MORE HEADLINES")
     home.listLabel = label
-    local sf, child = scrollArea(home, LIST_W, CH - PAD - 22)
-    sf:SetPoint("TOPLEFT", LIST_X, -20)
+    local sf, child = scrollArea(home, LIST_W, CH - PAD - BODY_Y - 22)
+    sf:SetPoint("TOPLEFT", LIST_X, -(BODY_Y + 20))
     home.list, home.listChild = sf, child
 
     home.empty = text(home, BODY_FONT, 15, SOFT)
@@ -274,6 +362,13 @@ local function buildHome()
     home.empty:SetJustifyH("CENTER")
     home.empty:SetWidth(460)
     home.empty:SetText("No stories in this edition yet.\nUpdate the addon to get the latest WoW: Forever news.")
+
+    -- tab bar: All, New (unread), then one tab per category in this edition
+    home.tabs = CreateFrame("Frame", nil, home)
+    home.tabs:SetPoint("TOPLEFT")
+    home.tabs:SetSize(CW, TABS_H)
+    local base = rect(home.tabs, "BACKGROUND", 1, 1, 1, 0.08)
+    base:SetPoint("BOTTOMLEFT"); base:SetPoint("BOTTOMRIGHT"); base:SetHeight(1)
 end
 
 local function getRow(i)
@@ -309,9 +404,20 @@ local function getRow(i)
 end
 
 local function refreshHome()
-    local stories = ns.Stories()
+    refreshTabs()
+    list = ns.Filter(tab)
+    local stories = list
     local now = ns.Now()
     local top = stories[1]
+    if top == nil then
+        if #ns.Stories() == 0 then
+            home.empty:SetText("No stories in this edition yet.\nUpdate the addon to get the latest WoW: Forever news.")
+        elseif tab == "new" then
+            home.empty:SetText("You're all caught up.\nEvery story in this edition has been read.")
+        else
+            home.empty:SetText("Nothing here in this edition.")
+        end
+    end
     home.empty:SetShown(top == nil)
     home.hero:SetShown(top ~= nil)
     home.list:SetShown(top ~= nil)
@@ -326,7 +432,8 @@ local function refreshHome()
     hero.meta:SetText(safe(ns.Meta(top, now)))
     hero.headline:SetText(safe(top.headline))
     hero.dek:SetText(safe(top.dek or top.body[1] or ""))
-    hero.kicker:SetText(ns.IsUnread(top) and "TOP STORY  |cfff2c46b•|r" or "TOP STORY")
+    local kick = tab == "all" and "TOP STORY" or tab == "new" and "NEWEST" or "LATEST"
+    hero.kicker:SetText(ns.IsUnread(top) and (kick .. "  |cfff2c46b•|r") or kick)
 
     for i = 2, #stories do
         local s = stories[i]
@@ -563,10 +670,17 @@ local function layoutArticle(s)
     article.scroll:ScrollTo(0)
 end
 
+local function indexIn(t, id)
+    for i, s in ipairs(t) do if s.id == id then return i end end
+end
+
 function ns.OpenStory(id)
-    local s, index = ns.Find(id)
+    local s = ns.Find(id)
     if not s then return end
     if not f then ns.Build() end
+    -- Prev/Next walk the tab the story was opened from; a story that isn't on it (opened from elsewhere) walks All
+    local index = indexIn(list, id)
+    if not index then list = ns.Stories(); index = indexIn(list, id) end
     current = s
     view = "article"
     home:Hide()
@@ -574,8 +688,8 @@ function ns.OpenStory(id)
     imageIndex = 1
     ns.ShowImage(1)
     layoutArticle(s)
-    local n = #ns.Stories()
-    article.count:SetText(index .. " of " .. n)
+    local n = #list
+    article.count:SetText(index .. " of " .. n .. (tab ~= "all" and ("  ·  " .. (tab == "new" and "NEW" or tab:upper())) or ""))
     article.prev:SetShown(index > 1)
     article.next:SetShown(index < n)
     ns.MarkRead(s)
@@ -584,9 +698,17 @@ end
 
 function ns.Step(dir)
     if not current then return end
-    local _, i = ns.Find(current.id)
-    local s = ns.Stories()[(i or 1) + dir]
+    local i = indexIn(list, current.id)
+    local s = list[(i or 1) + dir]
     if s then ns.OpenStory(s.id) end
+end
+
+function ns.SetTab(key)
+    tab = key or "all"
+    if home then
+        home.list:ScrollTo(0)
+        ns.ShowHome()
+    end
 end
 
 function ns.ShowHome()
@@ -641,8 +763,10 @@ function ns.Refresh()
         footer.status:SetText(#stories .. " stories" .. (unread > 0 and ("  ·  |cfff2c46b" .. unread .. " unread|r") or "") .. "   ·   /aad")
     end
     if view == "article" and current then
-        -- keep the article; just refresh the front page under it
+        -- keep the article and the list Prev/Next walks (on New, the story just read has left the tab)
+        local keep = list
         refreshHome()
+        list = keep
         home:Hide()
     else
         ns.ShowHome()

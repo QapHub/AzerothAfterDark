@@ -181,6 +181,81 @@ end
 ns.ShowHome()
 ok(ns.View() == "home", "back to all news")
 
+-- ------------------------------------------------------------ tabs
+SlashCmdList.AZEROTHAFTERDARK("unread")
+ns.SetTab("all")
+local tabs = ns.Tabs()
+ok(tabs[1].key == "all" and tabs[1].count == #stories, "first tab is All with every story")
+ok(tabs[2].key == "new" and tabs[2].count == #stories, "second tab is New with the unread count")
+local cats, catTotal = {}, 0
+for i = 3, #tabs do cats[tabs[i].key] = tabs[i].count; catTotal = catTotal + tabs[i].count end
+ok(catTotal == #stories, "category tabs cover every story once")
+for _, s in ipairs(stories) do
+    if not cats[s.category or "News"] then ok(false, "no tab for category " .. tostring(s.category)) end
+end
+local tabBtns = 0
+for _, o in ipairs(frames) do if o.kind == "Button" and o.key and o.shown then tabBtns = tabBtns + 1 end end
+ok(tabBtns == #tabs, "one tab button per tab (" .. tabBtns .. ")")
+
+-- pick the busiest category and filter to it
+local busy, busyN = nil, 0
+for i = 3, #tabs do if tabs[i].count > busyN then busy, busyN = tabs[i].key, tabs[i].count end end
+for _, o in ipairs(frames) do if o.kind == "Button" and o.key == busy and o.shown then o:Click() end end
+local t, shownList = ns.Tab()
+ok(t == busy and #shownList == busyN, "clicking a tab filters to " .. tostring(busy))
+local onlyBusy = true
+for _, s in ipairs(shownList) do if (s.category or "News") ~= busy then onlyBusy = false end end
+ok(onlyBusy, "filtered list holds only that category")
+local heroNow
+for _, o in ipairs(frames) do if o.kind == "Button" and o.story == shownList[1] and o.img then heroNow = o end end
+ok(heroNow ~= nil, "the tab's newest story is the big one")
+local rowsShown = 0
+for _, o in ipairs(frames) do if o.kind == "Button" and o.story and o.shown and o.thumb then rowsShown = rowsShown + 1 end end
+ok(rowsShown == busyN - 1, "rows only for the tab's other stories (" .. rowsShown .. ")")
+
+-- Prev/Next stay inside the tab
+ns.OpenStory(shownList[1].id)
+if busyN > 1 then
+    ns.Step(1)
+    local _, c = ns.View()
+    ok(c == shownList[2], "Next walks the tab, not All")
+end
+ns.Step(-1)
+local _, c0 = ns.View()
+ok(c0 == shownList[1], "Prev walks back inside the tab")
+
+-- New: reading stories takes them off the tab, but Next keeps walking the list you opened
+ns.ShowHome()
+ns.SetTab("new")
+local _, newList = ns.Tab()
+ok(#newList == ns.UnreadCount() and #newList >= 2, "New lists every unread story")
+ns.OpenStory(newList[1].id)
+ns.Refresh()                                 -- e.g. the footer's popup button while reading
+ns.Step(1)
+local _, c1 = ns.View()
+ok(c1 == newList[2], "Next from New still finds the next story after a refresh")
+for _, s in ipairs(stories) do ns.MarkRead(s) end
+ns.ShowHome()
+local _, emptyNew = ns.Tab()
+ok(#emptyNew == 0, "New is empty once everything is read")
+local caughtUp = false
+for _, o in ipairs(frames) do if o.kind == "FontString" and o.shown and o.text and o.text:find("all caught up") then caughtUp = true end end
+ok(caughtUp, "New shows 'all caught up'")
+
+-- a story opened from outside the tab walks All
+ns.SetTab(busy)
+local outsider
+for _, s in ipairs(stories) do if (s.category or "News") ~= busy then outsider = s; break end end
+if outsider then
+    ns.OpenStory(outsider.id)
+    local _, l = ns.Tab()
+    ok(#l == #stories, "a story from outside the tab walks All")
+end
+ns.SetTab("Nonsense")
+ns.ShowHome()
+ok(ns.Tab() == "all", "an unknown tab falls back to All")
+ns.SetTab("all")
+
 -- closing marks the edition seen; next login doesn't pop up
 f:Hide()
 ok(ns.db.lastSeen == ns.Newest(), "closing marks seen")
