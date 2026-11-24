@@ -1,9 +1,214 @@
--- Azeroth After Dark news edition 2026-11-23. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-24. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795438939,
-  edition = "2026-11-23",
+  generated = 1795483345,
+  edition = "2026-11-24",
   stories = {
+    {
+      id = "s45a14e7611",
+      time = 1795482906,
+      category = "Guides",
+      headline = "Stealthblade dagger lets almost any class go stealth",
+      dek = "A Sunken Temple area BoE grants a short Stealth to every dagger user, so Paladins are the only ones left out.",
+      body = { "The Stealthblade, a level 44 main-hand dagger, has a Forever-only twist: non-Rogues can use it to enter Stealth out of combat. The catch is a 20 second duration, 50% slower movement and a 30 minute cooldown.", "For Rogues it instead raises effective stealth level by 2. Hunters, Mages, Priests, Warlocks, Druids and Shamans can all use it, so Paladins are the only class shut out.", "It drops from mobs in the Sunken Temple, and Icy Veins also points to Mummified and Cursed Atal'ai in the Swamp of Sorrows, at about a 0.2% rate. It is Bind on Equip, so the Auction House is the shortcut. One listing was going for 20 gold." },
+      bullets = { "Non-Rogues: Stealth out of combat for 20 seconds at 50% movement speed.", "Rogues: effective stealth level raised by 2.", "30 minute cooldown; Bind on Equip.", "Drops from Sunken Temple mobs and Atal'ai in Swamp of Sorrows." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/most-classes-can-stealth-with-this-boe-in-wow-forever/",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/this-weapon-lets-you-stealth-without-needing-to-be-a-rogue/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s45a14e7611-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s45a14e7611-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s45a14e7611-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s9c05f20e2b",
+      time = 1795474858,
+      category = "News",
+      headline = "Players report armor debuffs do nothing in Forever dungeons",
+      dek = "Sunder Armor, Faerie Fire, Expose Armor and Curse of Recklessness may not be boosting physical damage in dungeons.",
+      body = { "Reports on the Classic WoW community GitHub say armor-reducing debuffs are not working in WoW: Forever dungeons. The combat log shows the target's armor going down, but players' and pets' physical hits are mitigated as if the debuff was never applied.", "It hits every level 60 dungeon checked so far, from Blackrock Spire and Stratholme to Scholomance, Dire Maul, Blackrock Depths, The Shaper's Terrace and Blackmaw Hold. NPC allies do benefit, and the debuffs work for players out in the open world.", "Blizzard has not confirmed it yet, and players say it may date back to Beta. Until then, Sunder Armor is still useful for threat, just not for damage inside dungeons." },
+      bullets = { "Affected: Sunder Armor, Faerie Fire, Expose Armor and Curse of Recklessness.", "Player and pet physical damage ignores the armor drop in dungeons.", "Open world and NPC allies are not affected.", "Not yet confirmed by Blizzard." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+        },
+      },
+      images = {
+        {
+          file = "news\\s9c05f20e2b-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "sb01312ac57",
+      time = 1795468840,
+      category = "Hotfixes",
+      headline = "Uldaman's Obsidian Sentinel drops loot again, vendor prices halved",
+      dek = "Levelers can chase Pendulum of Doom again, but the quick vendor gold farm is now worth far less.",
+      body = { "The Obsidian Sentinel in Uldaman has its loot table back after Blizzard stripped it out a couple of days ago to stop a fast max-level gold farm.", "There is a catch: the vendor price of its drops has been cut in half. Combined with the new limit of 5 dungeons per hour, Wowhead works it out to roughly 4.42 gold for about 7.5 minutes of farming.", "For anyone actually leveling through Uldaman, it is a win. The boss rewards gear again, Pendulum of Doom included." },
+      bullets = { "Uldaman: Obsidian Sentinel rare drops restored to its loot table.", "Uldaman: vendor price of Obsidian Sentinel drops reduced 50%.", "Affected items include Rock Sentinel Slicer, Dark Golem Breastplate, White Obsidian Wand and Axe of Lingering Dread." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
+        },
+      },
+      images = {
+        {
+          file = "news\\sb01312ac57-1",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s9a3560969a",
+      time = 1795462742,
+      category = "Hotfixes",
+      headline = "World Buffs survive loading screens again, Fengus' Ferocity halved",
+      dek = "Your world buffs now follow you into dungeons, but Dire Maul's spell power buff is weaker and none of them work in raids.",
+      body = { "Good news for anyone who likes to buff up before a run: the bug that wiped world buffs every time you hit a loading screen is fixed. Grab a buff, zone into your dungeon, and it stays with you.", "The same round of hotfixes trimmed one of the Dire Maul Tribute buffs. Fengus' Ferocity now gives half the spell power it used to.", "Blizzard also flagged a long list of world buffs so they no longer work inside raid instances, which lines up with what their tooltips already said. Dungeons are fine, raids are off the table." },
+      bullets = { "World Buffs: no longer removed when a loading screen triggers.", "Dire Maul Tribute: Fengus' Ferocity spell power cut 50%, to 115 from 230.", "Raids: Songflower Serenade, Warchief's Blessing and Rallying Cry of the Dragonslayer no longer work in raids.", "Raids: Spirit of Zandalar and Might of Stormwind no longer work in raids.", "Raids: every Sayge's Dark Fortune buff from the Darkmoon Faire no longer works in raids.", "Raids: Slip'kik's Savvy, Fengus' Ferocity and Mol'dar's Moxie no longer work in raids." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
+        },
+      },
+      images = {
+        {
+          file = "news\\s9a3560969a-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s9a3560969a-2",
+          credit = "Wowhead",
+          caption = "Warchief's Blessing in Ragefire Chasm dungeon.",
+        },
+      },
+    },
+    {
+      id = "s5229c36a64",
+      time = 1795460726,
+      category = "News",
+      headline = "Paladin and Warlock epic mount quests aren't granting riding skill",
+      dek = "Finished your class mount chain but can't ride other fast mounts? Blizzard knows, and a fix is a day or two away.",
+      body = { "Paladins and Warlocks who complete their epic mount questline are not getting the 150 riding skill that should come with it. Their class mounts still work, but other 100% speed mounts like the Cerulean Prideclaw are off limits.", "Blizzard has found the bug and confirmed it hits both classes. The fix needs another day or two.", "If you can't wait, you can still buy the riding skill the normal way like every other class. Otherwise, sit tight and it should be sorted soon." },
+      bullets = { "Affects Paladins and Warlocks who finish the epic mount questline.", "Class mounts work; other 100% speed mounts don't.", "Blizzard says the fix needs another day or two.", "Buying the riding skill normally works as a workaround." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/paladin-and-warlock-riding-skill-bug-fix-coming/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s5229c36a64-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s5229c36a64-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "scfb8fd7a62",
+      time = 1795458705,
+      category = "Guides",
+      headline = "Mages can craft the Coldflame Saber with the new Comprehend Scroll",
+      dek = "A Mage-only sword with spell power and bonus fire damage on frozen targets is waiting, if you can find the right scroll.",
+      body = { "The Coldflame Saber is a Mage-exclusive main-hand sword unlocked through the new Comprehend Scroll ability. It needs level 21, carries +7 intellect, adds up to 32 spell damage and healing, and its melee hits deal 98 extra fire damage to frozen targets.", "Step one: kill Baron Silverlaine in Shadowfang Keep until the Blade of Silverlaine drops. Step two: decipher Untranslated Scrolls of Comprehension level 15 or higher until you get the Scroll of the Saber. Some players got it fast, others needed close to 120 scrolls.", "Scrolls drop in the world or can be bought on the Auction House, but the Scroll of the Saber itself is Bind on Pickup. Use it on the Blade, wait out a roughly 10 second cast, and the Saber is yours." },
+      bullets = { "Requires level 21 and Comprehension skill 15 or higher.", "Get Blade of Silverlaine from Baron Silverlaine in Shadowfang Keep.", "Decipher Untranslated Scrolls for the Bind on Pickup Scroll of the Saber.", "Comprehension rises about 5 points per character level." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/mages-can-get-a-secret-weapon-in-wow-forever-with-the-new-scroll-deciphering-skill/",
+        },
+      },
+      images = {
+        {
+          file = "news\\scfb8fd7a62-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\scfb8fd7a62-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s161d65b411",
+      time = 1795451950,
+      category = "News",
+      headline = "Lockbox peeking and partial looting will return, Blizzard says",
+      dek = "The lockbox change was only a stopgap; a proper fix is in the works, though there is no date yet.",
+      body = { "Blizzard says the lockbox change that went live yesterday at 9:55 a.m. PST was a temporary measure, not the final word.", "The team is now working on a proper fix that brings back peeking inside lockboxes and partial looting, and makes them otherwise behave as intended. There is no ETA, but Blizzard says it will post when the fix is done.", "The stopgap likely came in response to the lockbox exploit found over the weekend. One side effect players noticed: junkboxes can no longer be partially looted and then turned in. Hang on to them for now." },
+      bullets = { "The change went live yesterday at 9:55 a.m. PST as a temporary measure.", "The fix restores peeking and partial looting.", "No ETA yet; Blizzard will post when it lands.", "Junkboxes currently can't be partially looted and turned in." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/your-wow-forever-lockboxes-will-get-peeking-and-partial-looting-back-blizzard-says/",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
+        },
+      },
+      images = {
+        {
+          file = "news\\s161d65b411-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s161d65b411-2",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s0493086909",
+      time = 1795447831,
+      category = "Community",
+      headline = "200 dwarves of Clan Battlehammer march on Orgrimmar",
+      dek = "A huge dwarf guild on the US RP-PvP realm has taken Thunder Bluff and set its sights on the Horde capital.",
+      body = { "On WoW Forever's US RP-PvP ruleset, a guild called Clan Battlehammer has been putting on quite a show. Around 200 dwarves lined up in tight formation outside The Commons in Ironforge to guard their home city.", "Defense was only the start. The army struck Thunder Bluff and took it, then marched on the gates of Orgrimmar. Whether 200 stubborn dwarves could actually break the Horde capital is another question, but it is a sight worth seeing if you are on that realm tonight." },
+      bullets = {},
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/200-dwarves-lay-siege-to-orgrimmar-in-clan-battlehammer-assault/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s0493086909-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
     {
       id = "se850d26fbc",
       time = 1795395637,
@@ -16,6 +221,10 @@ AzerothAfterDarkNews = {
         {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/blizzard-removes-uldaman-gold-farm-but-could-solo-dungeon-farming-be-next/",
         },
       },
       images = {
@@ -224,220 +433,6 @@ AzerothAfterDarkNews = {
           file = "news\\s27eaea43eb-3",
           credit = "Wowhead",
           caption = "Lockpicking in Tyr's Hand",
-        },
-      },
-    },
-    {
-      id = "se525dbbf2d",
-      time = 1795306796,
-      category = "Guides",
-      headline = "Hunters can tame Mystmane, a level 13 AoE bear, on Zephras Isle",
-      dek = "A Swipe-using bear pet you can grab at level 13, as long as you can outlast its shared spawn timer.",
-      body = { "Hunters on Skyborne's new starting island, Zephras Isle, have a early pet worth chasing. Mystmane is a level 13 bear that wanders Shadowgale Forest, roughly between 60.0, 33.5 and 59.3, 37.3 near the treeline, and it brings Swipe for area damage on top of the usual Claw and Bite.", "The catch is patience. Mystmane shares its spawn with the other bears in the area, so clearing them out helps move things along. Some players report waits of two to three hours, while others got lucky by farming bears nonstop.", "Bring Track Beasts and a target macro for its name to spot it fast. Expect the tame to fail once or twice, since Mystmane knocks you down mid-cast, and pack Fish, Bread, Fruit or Fungus to build loyalty afterward." },
-      bullets = { "You must be at least level 13 to tame it.", "Attack speed is 1.6 seconds, with Swipe, Claw and Bite.", "Killing nearby bears can help reset the shared spawn timer." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/this-level-13-bear-is-an-aoe-tank-pet-hunters-can-tame-early-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\se525dbbf2d-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s0d610a315c",
-      time = 1795289642,
-      category = "Guides",
-      headline = "New Forever toy turns you into a Furbolg, three minutes at a time",
-      dek = "A purely cosmetic toy from an Ashenvale quest chain that lets you stay a Furbolg nearly nonstop, on either faction.",
-      body = { "Ever wanted to spend an evening as a Furbolg? The Replica Dartol's Rod of Transformation toy does exactly that. It has no gameplay value, but it is a fun bit of cosmetic flair.", "The chain starts with Raene's Cleansing from Raene Wolfrunner in Astranaar, around 36.6, 49.6. It has to be done on an Alliance character, but once unlocked the toy works for both factions. Expect a tour of Ashenvale: Lake Falathim murlocs, treants for a Wooden Key, slimes for a Rusty Chest, and finally the Hidden Shrine.", "The transformation lasts three minutes on a one-minute cooldown, so you can keep it up almost forever. Just avoid taking damage, because any hit snaps you back to normal." },
-      bullets = { "Quest chain begins with Raene's Cleansing in Astranaar.", "Alliance-only to earn, usable by both factions afterward.", "Lasts 3 minutes, 1 minute cooldown, breaks on damage." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/transform-into-a-furbolg-indefinitely-with-this-new-wow-forever-toy/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s0d610a315c-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s0d610a315c-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s02c615ab37",
-      time = 1795283282,
-      category = "Guides",
-      headline = "Legacy Points can turn fresh alts into one-shot machines",
-      dek = "Account-wide Legacy Points can give a brand new alt real power from the first levels, and two cheap professions get you started.",
-      body = { "The Legacy Point system is account-wide, and many players are sleeping on how strong it makes new alts. To use it on alts you need one character at level 25 or higher, or a qualifying profession at 150: Alchemy, Blacksmithing, Enchanting, Engineering, Leatherworking or Tailoring.", "Points come from leveling classes and professions, PvP, challenges, dungeons and raids. The points and cosmetics are shared across your account, while each character picks its own perks, and players are spending them on extra rested XP and early power.", "The cheap route is Alchemy plus Enchanting: two professions at 150 give two points, and taking both to 225 gives four. One Paladin used 10 points to unlock talents at level 5, grabbed Seal of Command at 15 and was one-shotting mobs to 25. Stack weapon enchants, the new faction buffs and campfire buffs for even more." },
-      bullets = { "Unlock on alts needs a level 25 character or a level 150 qualifying profession.", "Points and cosmetics are account-wide; perks are chosen per character.", "Alchemy and Enchanting are the cheapest professions to level for points.", "Might of Stormwind or Warchief's Blessing adds 300% health and 15% haste." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/one-shot-mobs-on-your-alts-with-legacy-points-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s02c615ab37-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s02c615ab37-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s64c4dfd905",
-      time = 1795273200,
-      category = "Guides",
-      headline = "Every quest to grab before the new Alcaz Prison dungeon",
-      dek = "Heading into the level 50 Dustwallow dungeon? Pick up these quests first, plus a hidden one worth 25 gold.",
-      body = { "Alcaz Prison is a new dungeon on Alcaz Island in northeast Dustwallow Marsh, aimed at players around level 50. It is a quick one, likely about 30 minutes for a full run.", "Each faction gets three quests from outside the dungeon. Alliance chains start with Master Mathias Shaw in Stormwind's Old Town and lead to Sully McCleary at the Theramore Graveyard. Horde chains begin with Eitrigg in Orgrimmar and lead to Sergeant Ulka on Alcaz Island. There is also a level 46 quest from Archmage Lan'dalock in Dalaran.", "The fun bit is a secret quest. Leave The Questioner alive, kill the final boss, and Mason Connery offers The Man in the Iron Chains, worth 25 gold." },
-      bullets = { "Alliance: A Bit of Wet Work and The Secret Prison from Sully McCleary.", "Horde: No Orc Left Behind, A Little Payback and Blood Red Bandanas from Sergeant Ulka.", "Both: The Dragon's Journal from Archmage Lan'dalock in Dalaran.", "Secret: The Man in the Iron Chains, only if The Questioner is still alive." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383934/all-quests-for-new-alcaz-prison-dungeon-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s64c4dfd905-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s64c4dfd905-2",
-          credit = "Wowhead",
-          caption = "Alcaz Prison Entrance WoW Forever",
-        },
-        {
-          file = "news\\s64c4dfd905-3",
-          credit = "Wowhead",
-          caption = "Alcaz Prison Entrance WoW Forever",
-        },
-      },
-    },
-    {
-      id = "sb7bc0e023d",
-      time = 1795220616,
-      category = "Hotfixes",
-      headline = "Hotfixes: dungeon resets cut to 5 an hour, LFG shows more groups",
-      dek = "Dungeon farmers get half the hourly resets, a Warlock exploit is closed, and the group finder should finally list every group.",
-      body = { "Blizzard pushed the last hotfix batch of the week on November 20, and the headline change hits dungeon farmers hardest: you can now reset and enter each dungeon only 5 times per hour, down from 10. Plan your runs accordingly.", "There is good news for anyone hunting for a group, too. A bug was hiding some groups from some players in the group finder, and it has been fixed, so the list should look a lot fuller tonight.", "On the class side, Combat Rogues get a damage fix for Blade Flurry, while Demonology Warlocks lose a trick that kept Demonic Aegis effects after untalenting. Add a batch of quest fixes and a repaired forge in Summit of Eternity, and it is a tidy little Friday patch." },
-      bullets = { "Dungeons: each dungeon can now be reset and entered 5 times per hour (was 10).", "User Interface: fixed some players seeing fewer groups than intended in the group finder.", "Rogue, Combat: Blade Flurry now correctly makes Shank hit an additional target.", "Warlock, Demonology: Demonic Aegis can no longer be snapshotted into Demon Armor or Demon Skin and kept after untalenting.", "Items: Stormshroud Armor 3-piece now a 3% chance (was 4%) to restore 18 energy (was 30).", "Blackrock Spire: a rebel stone pillar should no longer trap players.", "Professions: Toron Rockhoof's forge and anvil in Summit of Eternity work again for blacksmithing and smelting.", "Quests, The Hinterlands: Witch Doctor Ti'ik now drops a head for each group member on the quest.", "Quests, Feralas: Perfect Yeti Hide no longer drops again while you are on its quest.", "Quests, Tanaris: Gor'marok respawns faster for The Dunemaul Compound.", "Quests, Riverglades: Dunston Willis no longer runs off partway through Dunston Checks Out.", "NPCs, Orgrimmar: Mayhoa Skyhoof no longer has glowing eyes." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
-        },
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/hourly-dungeon-reset-limit-halved-class-fixes-quest-improvements-wow-forever-hotfixes-november-20th/",
-        },
-        {
-          name = "Blizzard",
-          url = "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
-        },
-      },
-      images = {
-        {
-          file = "news\\sb7bc0e023d-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\sb7bc0e023d-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sb7bc0e023d-3",
-          credit = "Blizzard",
-        },
-      },
-    },
-    {
-      id = "s4f87808d40",
-      time = 1795207879,
-      category = "News",
-      headline = "Crafted tier set stats revealed ahead of the December 9 raid launch",
-      dek = "Crafters can now see the stats on craftable tier pieces, a possible backup plan if raid drops do not go your way.",
-      body = { "The first raid tier of WoW: Forever launches globally on December 9, and a hotfix has now revealed the stats on crafted versions of its tier set gear. Blizzard confirmed to Wowhead that this was intentional, since item hiding does not cover vendor and recipe items. The set bonuses shown are placeholders and will change.", "Each crafted piece carries a unique tag, Artisan's Tier (1), which suggests you can craft exactly one tier piece. That could act as bad luck protection toward your next set bonus if the bosses keep ignoring you.", "One catch: on the beta the recipes came from a vendor for Malleable Essence of Nature, but in the current build that vendor no longer sells them. How you will earn the plans at launch is still unknown." },
-      bullets = { "First raid tier launches globally on December 9.", "Crafted tier stats are visible in game now; set bonuses are placeholders.", "Artisan's Tier (1) hints you can craft only one tier piece.", "The beta recipe vendor no longer offers the plans in the live build." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
-        },
-      },
-      images = {
-        {
-          file = "news\\s4f87808d40-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s3595a8f3ef",
-      time = 1795202369,
-      category = "Guides",
-      headline = "Ring the gong in an Arathi cave to summon the Witherbark Goliath",
-      dek = "A hidden cave fight drops a quest item worth a big chunk of XP, plus crafting recipes and Waylaid Crates.",
-      body = { "Players have found a secret mini-boss fight in the Witherbark Troll Cave in southern Arathi Highlands, around 67.5, 80.9. The trolls inside have roughly a 7 to 11 percent chance to drop a Witherbark Mallet, which is your ticket in.", "With the Mallet in your bags, head deep into the cave behind Witherbark Village and strike the large gong. Two Witherbark Champions and the Witherbark Goliath, a level 35 elite that hits very hard, will spawn. Bring a group, or stock up on potions, food and campfire buffs if you want to try it alone.", "The prize is Goliath's Wristguards, a chance drop that starts a one-time quest with a large XP reward. The cave is in contested territory, so both Horde and Alliance can farm it." },
-      bullets = { "Location: Witherbark Troll Cave, southern Arathi Highlands, around 67.5, 80.9.", "Witherbark Mallet drops from cave trolls at roughly 7 to 11 percent.", "Goliath's Wristguards start a non-repeatable quest with big XP.", "Other loot: Formula: Enchant Gloves - Skinning, greens, materials and Waylaid Crates." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/a-secret-cave-with-a-familiar-mini-boss-has-been-found-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s3595a8f3ef-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s3595a8f3ef-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s5260fdb773",
-      time = 1795201255,
-      category = "News",
-      headline = "Layer Swap and other targeted layering addons are about to break",
-      dek = "An upcoming hotfix hides realm IDs from addons, so picking a specific layer will soon be down to luck.",
-      body = { "If you use Layer Swap or a similar addon to hop to a specific layer, enjoy it while it lasts. Blizzard told addon authors that an upcoming Forever 1.60.1 hotfix will hide the realm ID in creature and object GUIDs, and APIs that return realm names or IDs will hand back an empty string or zero instead.", "Those addons read creature GUIDs to work out which layer you are standing on, so without that data they cannot track or target layers. Layer hopping itself is not going away, but you will be jumping blind until you land somewhere quieter, unless authors find another workaround." },
-      bullets = { "Realm IDs in creature, vehicle, pet and object GUIDs will be obfuscated in hotfix 1.60.1.", "GetRealmName, GetRealmID and some C_BattleNet returns will give empty values on Forever.", "Layer swapping still works, but targeting a specific layer will not." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
-        },
-      },
-      images = {
-        {
-          file = "news\\s5260fdb773-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s5260fdb773-2",
-          credit = "Layer Swap",
         },
       },
     },
