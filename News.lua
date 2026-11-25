@@ -1,9 +1,213 @@
--- Azeroth After Dark news edition 2026-11-24. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-25. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795483647,
-  edition = "2026-11-24",
+  generated = 1795613633,
+  edition = "2026-11-25",
   stories = {
+    {
+      id = "s3402ff0c44",
+      time = 1795609675,
+      category = "News",
+      headline = "New motion comic Al'Aketh Rising follows a Skyborne constable",
+      dek = "Blizzard's latest Forever comic adds story to the Skyborne and Zephras Isle, worth a watch before your next session.",
+      body = { "Blizzard has released a new World of Warcraft: Forever motion comic called Al'Aketh Rising, and this one belongs to the Skyborne. It follows Constable Aonda, who heads into a remote settlement while chasing down some thieves.", "What she finds is a village held under tight control: guarded prisoners, unsettlingly cheerful strangers and a quiet that hides something worse. Aonda plays along to get closer to the truth and ends up tangled in hidden agendas and fanatical devotion.", "Sam Slade reads Aonda, Robert Brooks wrote it, Stefano Porcu did the art and cover, Mauro Gulma the colors and AndWorld Design the letters. You can find it on the official World of Warcraft news site." },
+      bullets = { "Follows Skyborne Constable Aonda on Zephras Isle.", "Written by Robert Brooks, read by Sam Slade.", "Art and cover by Stefano Porcu, colors by Mauro Gulma." },
+      sources = {
+        {
+          name = "Blizzard",
+          url = "https://worldofwarcraft.blizzard.com/en-us/news/24317680",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/new-skyborne-centric-wow-forever-motion-comic-alaketh-rising/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s3402ff0c44-1",
+          credit = "Blizzard",
+        },
+        {
+          file = "news\\s3402ff0c44-2",
+          credit = "Blizzard",
+          caption = "Don’t Miss the World of Warcraft: Forever Comic, “Al'Aketh Rising”",
+        },
+        {
+          file = "news\\s3402ff0c44-3",
+          credit = "Wowhead",
+        },
+      },
+    },
+    {
+      id = "s5637b1beb5",
+      time = 1795545602,
+      category = "Guides",
+      headline = "How to summon Lyn the Ignored, the secret City of Dalaran boss",
+      dek = "A tome quest that starts in Shadowfang Keep unlocks a hidden boss with its own loot in the City of Dalaran dungeon.",
+      body = { "The City of Dalaran dungeon has a hidden boss, Lyn the Ignored. Players spotted the empty boss room back in beta, and now the summoning steps have been worked out.", "It starts in Shadowfang Keep: beat Archmage Arugal, then grab the Black Tome from the book on his table. Take it to the keep in Ambermill, Silverpine Forest, and use it next to the glowing blue Ambermill Leyline Focus to turn it into the Tome of Dalaran.", "In the City of Dalaran, defeat Atrexis the Grave Knight and keep going through the sewer, heading straight instead of turning right toward the surface. Use the tome on the purple rune at the end, sit through a bit of roleplay, and Lyn shows up." },
+      bullets = { "Loot the Black Tome after killing Archmage Arugal in Shadowfang Keep.", "Convert it at the Ambermill Leyline Focus in Silverpine Forest.", "Use the Tome of Dalaran on the purple rune past Atrexis the Grave Knight.", "Possible drops: Bonepile Gaze, Tendonscraper Dagger and Cartilage Shapers." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/theres-a-secret-boss-in-the-city-of-dalaran-dungeon-heres-how-to-find-it-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s5637b1beb5-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s5637b1beb5-2",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s2020b3173d",
+      time = 1795544087,
+      category = "Guides",
+      headline = "Deadmines axe Rockslicer lets you mine ore without Mining",
+      dek = "A rare drop from Rhahk'Zor gathers 30 ore nodes with no profession or pick, handy for leveling crafters.",
+      body = { "Here's a fun one from the Deadmines. Rhahk'Zor can drop the Rockslicer, a rare level 18 two-handed axe that lets you mine Copper, Tin, Silver and Iron without the Mining skill or a Mining Pick in your bags.", "The effect has 30 charges, so you get 30 nodes in total. It only gathers raw ore, and you still need Mining to smelt it. You also need a class that can use axes.", "There's a handy tell: if Rhahk'Zor is visibly carrying the axe during the fight, it's dropping that run. It binds on pickup, so you can't buy it on the Auction House." },
+      bullets = { "Rare two-handed axe from Rhahk'Zor in the Deadmines, requires level 18.", "Mines Copper, Tin, Silver and Iron, 30 charges total.", "52-78 damage, +7 Strength, +7 Nature Resistance, Bind on Pickup.", "If the boss holds the axe in the fight, it will drop." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/this-hidden-weapon-lets-you-mine-ore-without-the-mining-profession-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s2020b3173d-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "sc2803f1454",
+      time = 1795540350,
+      category = "Community",
+      headline = "Hunters top Forever's class charts as Undead edge out Humans",
+      dek = "Raider.IO numbers show who is playing what, and the factions are almost dead even across every ruleset.",
+      body = { "Curious what everyone else is playing? Icy Veins dug into Raider.IO's Forever stats, which track over 7 million characters at level 10 and up.", "Hunters are the most played class at 15.1 percent, ahead of Paladins, with three out of four Hunters in Beast Mastery. Undead beat Humans by just 0.1 percent for the top race, helped along by the popular new Undead Paladin, which is also the top race and class combo. Skyborne, the only paid race, sit at the bottom.", "Faction balance is remarkably close, with the Alliance ahead by 0.5 percent overall. Most characters are still at level 10 or below, and about 195K have reached 60." },
+      bullets = { "Hunters lead at 15.1 percent, 1.6 points ahead of Paladins.", "Undead Paladin is the most popular race and class combo.", "Alliance leads overall faction balance by 0.5 percent.", "Around 195K characters are level 60." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/top-specs-and-combos-wow-forever-class-and-race-popularity-faction-balance-and-more-stats/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sc2803f1454-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\sc2803f1454-2",
+          credit = "Icy Veins",
+          caption = "Race Popularity Data by Raider.IO.",
+        },
+        {
+          file = "news\\sc2803f1454-3",
+          credit = "Icy Veins",
+          caption = "Class Popularity Data by Raider.IO.",
+        },
+      },
+    },
+    {
+      id = "s9d881f2205",
+      time = 1795538844,
+      category = "Guides",
+      headline = "Dire Maul Royal Seal trinkets now carry Nature Resistance",
+      dek = "Fresh 60s can grab a class trinket from the Dire Maul library, now with Nature Resistance for the first raids.",
+      body = { "If you're nearing 60 with gear lagging behind, the Royal Seal of Eldre'Thalas trinkets in Dire Maul are a solid start. Each class turns in its own libram to a Lorekeeper, such as Lorekeeper Mykos, in the library between Dire Maul West and North.", "The easiest way in is the Crescent Key from Pusillin in Dire Maul East, which opens the North entrance. Rogues with enough lockpicking or Blacksmiths with an Arcanite Skeleton Key can open the door too. Librams drop from bosses in all three wings, rarely from Dusty Tomes, and turn up on the Auction House.", "The trinkets were trimmed overall compared to Classic, but they still hold up. The big change: instead of Fire Resistance, they now give +15 Nature Resistance, which fits the nature themes of Barrow Deeps and Mount Hyjal." },
+      bullets = { "Turn in your class libram to a Lorekeeper in the Dire Maul library.", "Crescent Key from Pusillin opens the North entrance.", "Trinkets now grant +15 Nature Resistance instead of Fire Resistance.", "Several healer seals now include stats non-healing specs can use." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/behind-on-gear-in-wow-forever-dire-maul-has-a-trinket-for-your-class/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s9d881f2205-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s38f5e814f4",
+      time = 1795532400,
+      category = "Guides",
+      headline = "Where every Tier 3 profession blueprint drops in Forever",
+      dek = "High-end crafting needs Tier 3 Work Stations, and the blueprints come from late dungeon bosses worth farming yourself.",
+      body = { "Forever's top-tier crafting asks for Profession Work Stations, things like a Loom or a Master Forge. Players craft them with their profession, they're used up when placed, and you can set one down anywhere a campfire fits.", "Wowhead has gathered the drop sources for every Tier 3 blueprint, mostly from endgame dungeons like Scholomance, Stratholme and Blackrock Depths. Gathering and secondary professions get blueprints too, but theirs offer other perks.", "Blueprints can be traded, but Tier 3 ones are pricey on the Auction House right now. The same bosses also drop the reagents to build the stations, so farming them yourself may pay off." },
+      bullets = { "Blacksmithing Master Forge: Golem Lord Argelmach, Blackrock Depths.", "Tailoring Loom: Baroness Anastari, Stratholme.", "Alchemy Laboratory: Ras Frostwhisper, Scholomance.", "Engineering Anarchist's Workbench: Ezra Grimm, Stratholme." },
+      sources = {
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
+        },
+      },
+      images = {
+        {
+          file = "news\\s38f5e814f4-1",
+          credit = "Wowhead",
+        },
+        {
+          file = "news\\s38f5e814f4-2",
+          credit = "Wowhead",
+          caption = "Prices shown were accurate on EU PvE as of 12:21 November 23rd",
+        },
+      },
+    },
+    {
+      id = "s378696d71a",
+      time = 1795521286,
+      category = "Hotfixes",
+      headline = "Hotfixes: Mortal Strike loophole shut, Darkmoon buffs halved",
+      dek = "A busy week of fixes hits several classes, cuts dungeon resets to five an hour and puts Upper Blackrock Spire back at full strength.",
+      body = { "Blizzard pushed another big round of Forever hotfixes, with the November 23 batch landing on top of fixes from the 17th, 19th and 20th. Class players got the most attention this time, including two talent loopholes being closed for Warriors and Warlocks.", "On the buff front, Darkmoon Faire buffs were giving twice the power intended and have been brought down, and some spells were triggering more weapon procs than they should. World Buffs now stick through loading screens, though they still drop when you enter a raid.", "If you farm dungeons, note the new cap: five resets and entries per dungeon per hour, down from ten. Upper Blackrock Spire also had its enemy health and damage corrected upward, so bring a full, focused group." },
+      bullets = { "Warrior: Mortal Strike can no longer be used from the spellbook without the talent point spent.", "Warlock: Demonic Aegis can no longer be kept after untalenting; Intensity now works on Incinerate.", "Paladin: Retribution Two-Handed Weapon Specialization again boosts all Holy damage with a two-hander.", "Druid: Feralheart 4-piece now grants 4 Energy per second for 5 seconds as intended.", "Priest: Shadow can use Chastise in Shadowform; Dark Inspiration fixed with Mind Flay.", "Rogue: Combat Blade Flurry now makes Shank hit an additional target.", "Shaman: Flurry no longer loses stacks when Windfury totem attacks land.", "Spells: Darkmoon Faire buffs were granting double power and have been corrected.", "Dungeons: Each dungeon can be reset and entered at most 5 times per hour (was 10).", "Upper Blackrock Spire: Enemy health and damage raised back to intended levels.", "Items: Stormshroud Armor 3-piece now a 3% chance to restore 18 energy (was 4% for 30).", "Cooking: Clam dishes now give proper Well Fed bonuses; Murloc Fin Soup moved up a food tier." },
+      sources = {
+        {
+          name = "Blizzard",
+          url = "https://worldofwarcraft.blizzard.com/en-us/news/24315281",
+        },
+        {
+          name = "Wowhead",
+          url = "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/class-fixes-world-buff-nerfs-profession-changes-weapon-procs-wow-forever-hotfixes-november-23rd/",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/class-changes-profession-adjustments-dungeon-tuning-quest-fixes-wow-forever-weekly-hotfix-summary-november-17-23/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s378696d71a-1",
+          credit = "Blizzard",
+        },
+        {
+          file = "news\\s378696d71a-2",
+          credit = "Blizzard",
+          caption = "WoW: Forever Hotfixes - November 23, 2026",
+        },
+        {
+          file = "news\\s378696d71a-3",
+          credit = "Wowhead",
+        },
+      },
+    },
     {
       id = "s45a14e7611",
       time = 1795482906,
@@ -50,6 +254,10 @@ AzerothAfterDarkNews = {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
         },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/sunder-armor-abilities-are-still-not-working-in-wow-forever-dungeons/",
+        },
       },
       images = {
         {
@@ -71,6 +279,10 @@ AzerothAfterDarkNews = {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
         },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/sentinel-gold-farm-hit-by-double-nerf-as-blizzard-slashes-instance-limit/",
+        },
       },
       images = {
         {
@@ -91,6 +303,10 @@ AzerothAfterDarkNews = {
         {
           name = "Wowhead",
           url = "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
+        },
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-fixes-world-buffs-but-nerfs-dire-maul-tribute/",
         },
       },
       images = {
@@ -236,203 +452,6 @@ AzerothAfterDarkNews = {
           file = "news\\se850d26fbc-2",
           credit = "Wowhead",
           caption = "Obsidian Sentinel Loot",
-        },
-      },
-    },
-    {
-      id = "s0af5a09740",
-      time = 1795391897,
-      category = "News",
-      headline = "World Buffs vanishing on loading screens is a bug, fix promised",
-      dek = "Warchief's Blessing, Might of Stormwind and DMT buffs drop on any loading screen for now, so keep them for the open world until the fix lands.",
-      body = { "If your world buffs have been evaporating the second a loading screen pops, you are not imagining it. Warchief's Blessing, Might of Stormwind and the Dire Maul Tribute buffs were all being wiped on any load, including logging in, hearthing between cities, portals and dungeon entrances.", "That quietly killed the popular trick of carrying those buffs into dungeons or onto the other continent. Some players assumed Blizzard did it on purpose, but Senior Game Designer Aidan Moon said on X that it is not intended.", "According to Moon, the culprit was a fix for the Battle Shout from the Diamond Flask quest, which was recasting on every zone change and spreading from player to player. Patching that broke world buffs, and he said a fix was due the day after his November 22 post. Until it is confirmed live, avoid loading screens while buffed." },
-      bullets = { "World Buffs: currently removed by any loading screen, including login, hearth, portals and dungeons.", "Aidan Moon confirmed it is a bug caused by a Diamond Flask Battle Shout fix.", "Once fixed, buffs should work again in dungeons and on the opposite continent. They still do not work in raids." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/blizzard-accidentally-changed-world-buffs-in-wow-forever-making-them-disappear-during-loading-screens/",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
-        },
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s0af5a09740-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s0af5a09740-2",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s0af5a09740-3",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s675a4b09be",
-      time = 1795384087,
-      category = "Guides",
-      headline = "Four echoes and a statue puzzle unlock the Scarlet Banner",
-      dek = "A hidden Scarlet Monastery puzzle rewards a cosmetic campfire decoration that may matter more later on.",
-      body = { "Campfires got a new trick in Forever: you can dress them up with extra features. One of them, the Scarlet Banner, is hidden behind a little scavenger hunt. Right now it is purely cosmetic, but it could pick up a use down the line.", "Collect four echoes, keep them in your bags and head into the Scarlet Monastery Library. Use each echo on its matching statue in the right order and a glowing item appears in the middle of the room. Get the order wrong and you will have to reset the instance." },
-      bullets = { "Echoes: SM Graveyard, Gooch Farm in Arathi (62, 54), Dustwallow Marsh (63.7, 42.5), Swamp of Sorrows (16.8, 53.8).", "Statue order: Warrior with Swamp, Mage with Arathi, Paladin with Theramore, Priest with Graveyard.", "A wrong order means resetting the instance and starting over." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/scarlet-monastery-has-a-hidden-scarlet-banner-reward-in-wow-forever-heres-how-to-get-it/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s675a4b09be-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s675a4b09be-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s12cfe61cd9",
-      time = 1795381335,
-      category = "Guides",
-      headline = "Sing to a frog on Zephras Isle to earn the Musical Gustjumper",
-      dek = "A secret pet hides in the Skyborne starting zone, and you can grab it at level one if you dodge the locals.",
-      body = { "Before you leave Zephras Isle, swing by the waterfalls at 51.5, 72.3 on the road from Thendal Village. A group of Musical Gustjumper frogs sits on a rock at the top, and a log next to it lets you hop up to them.", "Target a frog and use the /sing emote. It sings back, the rest vanish, and a new frog appears on the log. Interact with it and it is yours. You can do it at level one, but watch for the level 5 and 6 Prideclaw and Vuldren nearby." },
-      bullets = { "Location: Zephras Isle, 51.5, 72.3, top of the waterfalls.", "Target a frog, type /sing, then interact with the frog that spawns on the log.", "Level 5 and 6 enemies patrol the area." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/dont-leave-zephras-isle-without-finding-this-secret-pet-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s12cfe61cd9-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s12cfe61cd9-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s12cfe61cd9-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "saac2434284",
-      time = 1795381203,
-      category = "Hotfixes",
-      headline = "Rogues can no longer peek inside lockboxes after reroll exploit",
-      dek = "Opening a lockbox with auto-loot off now just loots it straight to your bags, closing a trick that could reroll the contents.",
-      body = { "Rogues used to switch off auto-loot, pick a lockbox and take a look at what was inside before mailing it back to its owner. With Mithril Lockboxes holding pricey items like recipes, it was a fun bit of nosiness.", "Then a Reddit user found the contents shown to the peeking Rogue could differ from what the owner got after the box came back in the mail, meaning loot could be rerolled. A recent hotfix ends it: trying to peek now automatically loots the box into your inventory. Picking locks for other players still works, just no browsing." },
-      bullets = { "Lockpicking: peeking inside an unlooted lockbox is no longer possible.", "Opening a lockbox now auto-loots its contents into your bags.", "Change follows reports that peeking could reroll lockbox contents." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
-        },
-      },
-      images = {
-        {
-          file = "news\\saac2434284-1",
-          credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "scb744c8b3c",
-      time = 1795373544,
-      category = "Guides",
-      headline = "Forsaken Paladins can earn Wolfsbane, an exclusive two-hander",
-      dek = "A hidden questline from level 18 ends in a rare weapon well ahead of normal quest rewards, if you can take down a level 25 elite.",
-      body = { "Forsaken Paladins get a weapon nobody else can have. Wolfsbane is a rare, item level 31 two-hander with 69 to 105 damage, 3.40 speed, plus 9 Stamina and 10 Intellect. Its chance on hit blasts the target with Holystorm damage, and it hits Wolves and Worgen three times as hard.", "Start at level 18 by talking to Danitha Morr at Bandarion Keep in the Whispering Wood, Tirisfal Glades (around 22.0, 44.6). At level 20 you can take A Moon-Kissed Blade, forge the Moonsilver Blade, and finish by beating the level 25 elite worgen Old Fire-Eye." },
-      bullets = { "Start: Danitha Morr, Bandarion Keep, Tirisfal Glades, level 18.", "Follow-up quest A Moon-Kissed Blade needs level 20.", "Final step: defeat Old Fire-Eye, a level 25 elite worgen." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/forsaken-paladins-in-wow-forever-get-a-hidden-weapon-other-classes-cant-have/",
-        },
-      },
-      images = {
-        {
-          file = "news\\scb744c8b3c-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\scb744c8b3c-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sc835e266be",
-      time = 1795369748,
-      category = "Guides",
-      headline = "40 hidden books earn every class rings, amulets and a bow",
-      dek = "Those books you keep walking past can be turned in at the library for real gear, and in Forever every class can claim the rewards.",
-      body = { "Scattered across the world are 40 hidden books that most players spot and ignore. Hand them in and you get lore-heavy questlines plus actual gear. They came from Season of Discovery, where they were tied to a Mage rune, but in Forever any class can cash them in.", "There are four questlines at different book counts, and the last set needs you to be level 50. Alliance hands books to the Librarian in the Stormwind Mage Tower (49.0, 86.4); Horde goes to the Undercity Magic Quarter (74.0, 32.4). Mages also get the Study ability at level 6 for their first book." },
-      bullets = { "10 books: Scholarly Pendant or Erudite's Amulet.", "20 books: Field Researcher's Loop or Philanthropist's Ring.", "25 books: Truthseeker's Bow, Crest of Elucidation or Researcher's Night Light.", "Books turn up in Arathi Highlands, Dustwallow Marsh, Alterac Mountains, The Barrens, Ironforge and more." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-players-are-skipping-40-hidden-books-that-give-gear/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sc835e266be-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sc835e266be-2",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sc835e266be-3",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s27eaea43eb",
-      time = 1795359600,
-      category = "Guides",
-      headline = "Blackrock Depths lockpicking trick is out, Tyr's Hand is in",
-      dek = "Rogues pushing Lockpicking to 300 should skip the old BRD door route and head to Eastern Plaguelands instead.",
-      body = { "In Classic, Rogues took Lockpicking from 250 to 300 by working the Shadowforge doors and lock in Blackrock Depths. In Forever, testing shows the Shadowforge lock goes grey around 265, so that route stalls early.", "The new go-to is Tyr's Hand in Eastern Plaguelands, packed with elite mobs and Scarlet Footlockers to pick. It is worth the trouble: at 300 you can open the Dire Maul North door without the Crescent Key, plus earn some gold opening lockboxes for other players." },
-      bullets = { "Shadowforge lock in BRD turns grey around Lockpicking 265.", "Best spot now: Scarlet Footlockers at Tyr's Hand, Eastern Plaguelands.", "300 Lockpicking opens the Dire Maul North door without the Crescent Key." },
-      sources = {
-        {
-          name = "Wowhead",
-          url = "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
-        },
-      },
-      images = {
-        {
-          file = "news\\s27eaea43eb-1",
-          credit = "Wowhead",
-        },
-        {
-          file = "news\\s27eaea43eb-2",
-          credit = "Wowhead",
-          caption = "Lockpicking Level 268",
-        },
-        {
-          file = "news\\s27eaea43eb-3",
-          credit = "Wowhead",
-          caption = "Lockpicking in Tyr's Hand",
         },
       },
     },
