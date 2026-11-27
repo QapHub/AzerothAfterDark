@@ -1,9 +1,59 @@
--- Azeroth After Dark news edition 2026-11-26. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-27. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795700095,
-  edition = "2026-11-26",
+  generated = 1795784446,
+  edition = "2026-11-27",
   stories = {
+    {
+      id = "s0ef96f7d11",
+      time = 1795749476,
+      category = "Guides",
+      headline = "Three rare Riverglades pets for Hunters: Ombassa, Trapclaw, Ghostmaw",
+      dek = "Three of Forever's most wanted Hunter pets live in Riverglades, and two of them are also quest kills, so expect company.",
+      body = { "Hunters, pack your Taming Rod energy for Riverglades. Icy Veins rounds up three rare pets there that players are chasing: Ombassa the cat, Trapclaw the crab and Ghostmaw the crocolisk. Ombassa and Ghostmaw are level 41-42 elites, while Trapclaw is a regular level 42 mob.", "Ombassa only shows up when you use the Tallstrider Call during the King of the Wild Plains quest, open to both factions, near 59.6, 53.6. Tame it before you turn the quest in. Kill it on the first summon and you lose solo access to it. Once tamed, it knows Dash Rank 2 and Faster Attack II.", "Trapclaw patrols underwater around 82.4, 53.5 with a reportedly long respawn, and the WANTED: Trapclaw quest sends other players after it too. Ghostmaw roams the middle river from Wheeler's Grange up to Rog'Mar, is also a WANTED target, and comes with Dismember Rank 3 and Bite Rank 6." },
+      bullets = { "Ombassa: level 41 elite cat, summoned via Tallstrider Call, 1.6-second attack speed.", "Trapclaw: level 42 crab, underwater at 82.4, 53.5, 2-second attack speed.", "Ghostmaw: level 42 elite crocolisk, patrols the middle river, 2-second attack speed.", "Trapclaw and Ghostmaw are both WANTED quest kills, so competition can be heavy." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-hunters-have-new-rare-pets-to-track-down-in-riverglades/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s0ef96f7d11-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s3fa82dfda4",
+      time = 1795746748,
+      category = "Guides",
+      headline = "Ironforge Greathammer and Axe of Orgrimmar: two early faction weapons",
+      dek = "Both factions can grab a strong early two-hander from a short quest chain that ends in a starter-zone dungeon.",
+      body = { "Looking for a big early weapon upgrade? Icy Veins points to two faction rewards in Forever: the Ironforge Greathammer for the Alliance and the Axe of Orgrimmar for the Horde. Both come from quest chains that are fairly easy to finish.", "Alliance players farm Dark Iron Dwarves and Spies at Ironband's Compound in Dun Morogh until the Dark Iron Map drops. That starts Underground Map, leading to Earthseer Farsen in Gol'Bolar Quarry and then Old Ironforge Incursion. Beat Durgen Dirgehammer in the Hall of Thanes and take his head to King Magni for the hammer.", "Horde players start Hidden Enemies with Thrall, farm Burning Blade cultists at Skull Rock in Durotar for the Lieutenant's Insignia, show it to Neeru Fireblade in the Cleft of Shadow, then report back. The final step sends you into Ragefire Chasm to defeat Bazzalan and Jergosh the Invoker before Thrall hands over the axe." },
+      bullets = { "Ironforge Greathammer: two-handed mace, 39-60 damage, chance on hit to deal 42 Fire damage.", "Axe of Orgrimmar: two-handed axe, 42-64 damage, +6 Stamina and +6 Spirit.", "Alliance chain ends in the Hall of Thanes dungeon beneath Old Ironforge.", "Horde chain ends in Ragefire Chasm." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/these-two-faction-based-weapons-are-worth-hunting-down-in-wow-forever/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s3fa82dfda4-1",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s3fa82dfda4-2",
+          credit = "Icy Veins",
+        },
+        {
+          file = "news\\s3fa82dfda4-3",
+          credit = "Icy Veins",
+        },
+      },
+    },
     {
       id = "sdecbc5018c",
       time = 1795649311,
@@ -406,58 +456,6 @@ AzerothAfterDarkNews = {
       images = {
         {
           file = "news\\s2020b3173d-1",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "sc2803f1454",
-      time = 1795540350,
-      category = "Community",
-      headline = "Hunters top Forever's class charts as Undead edge out Humans",
-      dek = "Raider.IO numbers show who is playing what, and the factions are almost dead even across every ruleset.",
-      body = { "Curious what everyone else is playing? Icy Veins dug into Raider.IO's Forever stats, which track over 7 million characters at level 10 and up.", "Hunters are the most played class at 15.1 percent, ahead of Paladins, with three out of four Hunters in Beast Mastery. Undead beat Humans by just 0.1 percent for the top race, helped along by the popular new Undead Paladin, which is also the top race and class combo. Skyborne, the only paid race, sit at the bottom.", "Faction balance is remarkably close, with the Alliance ahead by 0.5 percent overall. Most characters are still at level 10 or below, and about 195K have reached 60." },
-      bullets = { "Hunters lead at 15.1 percent, 1.6 points ahead of Paladins.", "Undead Paladin is the most popular race and class combo.", "Alliance leads overall faction balance by 0.5 percent.", "Around 195K characters are level 60." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/top-specs-and-combos-wow-forever-class-and-race-popularity-faction-balance-and-more-stats/",
-        },
-      },
-      images = {
-        {
-          file = "news\\sc2803f1454-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\sc2803f1454-2",
-          credit = "Icy Veins",
-          caption = "Race Popularity Data by Raider.IO.",
-        },
-        {
-          file = "news\\sc2803f1454-3",
-          credit = "Icy Veins",
-          caption = "Class Popularity Data by Raider.IO.",
-        },
-      },
-    },
-    {
-      id = "s9d881f2205",
-      time = 1795538844,
-      category = "Guides",
-      headline = "Dire Maul Royal Seal trinkets now carry Nature Resistance",
-      dek = "Fresh 60s can grab a class trinket from the Dire Maul library, now with Nature Resistance for the first raids.",
-      body = { "If you're nearing 60 with gear lagging behind, the Royal Seal of Eldre'Thalas trinkets in Dire Maul are a solid start. Each class turns in its own libram to a Lorekeeper, such as Lorekeeper Mykos, in the library between Dire Maul West and North.", "The easiest way in is the Crescent Key from Pusillin in Dire Maul East, which opens the North entrance. Rogues with enough lockpicking or Blacksmiths with an Arcanite Skeleton Key can open the door too. Librams drop from bosses in all three wings, rarely from Dusty Tomes, and turn up on the Auction House.", "The trinkets were trimmed overall compared to Classic, but they still hold up. The big change: instead of Fire Resistance, they now give +15 Nature Resistance, which fits the nature themes of Barrow Deeps and Mount Hyjal." },
-      bullets = { "Turn in your class libram to a Lorekeeper in the Dire Maul library.", "Crescent Key from Pusillin opens the North entrance.", "Trinkets now grant +15 Nature Resistance instead of Fire Resistance.", "Several healer seals now include stats non-healing specs can use." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/behind-on-gear-in-wow-forever-dire-maul-has-a-trinket-for-your-class/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s9d881f2205-1",
           credit = "Icy Veins",
         },
       },
