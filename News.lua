@@ -1,9 +1,51 @@
--- Azeroth After Dark news edition 2026-11-27. Written by the After Dark newsroom (tools/addon-news.mjs in
+-- Azeroth After Dark news edition 2026-11-28. Written by the After Dark newsroom (tools/addon-news.mjs in
 -- the show's app); replaced with every addon update. Don't edit by hand.
 AzerothAfterDarkNews = {
-  generated = 1795784446,
-  edition = "2026-11-27",
+  generated = 1795870870,
+  edition = "2026-11-28",
   stories = {
+    {
+      id = "sbb46915839",
+      time = 1795795082,
+      category = "Community",
+      headline = "Summoners Union addon flags groups that kick Warlocks after a summon",
+      dek = "Warlocks tired of summon-and-kick groups can now track offenders, get warnings, and auto-decline their invites.",
+      body = { "Warlocks of Forever, your labor movement has arrived. A new addon called The Summoners Union, made by OrganicCarrots, keeps an eye on your Ritual of Summoning casts and lets you flag group leaders who boot you shortly after you bring everyone in.", "Those reports are shared with everyone else running the addon. When a flagged player joins your group or sends you an invite, you get a heads-up first, and you can even switch on automatic declines for repeat offenders.", "So if your plan tonight is to invite a lock, grab a quick summon and kick them, the whole union may already know your name. The addon is available on CurseForge." },
+      bullets = { "Tracks your Ritual of Summoning casts and flags leaders who kick soon after a summon.", "Reports are shared between addon users.", "Warns you when a flagged player joins your group or invites you.", "Optional automatic invite declines for repeat offenders." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/wow-forever-warlocks-are-fighting-back-against-players-who-exploit-them/",
+        },
+      },
+      images = {
+        {
+          file = "news\\sbb46915839-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
+    {
+      id = "s880a67fc92",
+      time = 1795789800,
+      category = "Guides",
+      headline = "Onyxia needs attunement: start the Drakefire Amulet before December 9",
+      dek = "Raids open December 9, and Onyxia's Lair is locked behind a long attunement chain, so starting tonight is the safe call.",
+      body = { "Forever's first raids open on December 9. Barrow Deeps and Hyjal Summit need no attunement, but Onyxia's Lair does: every player who wants in must earn the Drakefire Amulet first.", "Horde players can start at level 55 in the Badlands with the quest Blood and Thunder. Alliance players can start earlier, at level 48, by picking up Dragonkin Menace in the Burning Steppes.", "Both chains send you through several high-level dungeons and tough elite group quests, and both end at General Drakkisath in Upper Blackrock Spire, where you need the Blood of the Black Dragon Champion. It is not a one-evening job, so get moving now and don't be the one left outside the lair on raid night." },
+      bullets = { "Horde: start at level 55 in the Badlands with Blood and Thunder.", "Alliance: start at level 48 in the Burning Steppes with Dragonkin Menace.", "Both chains finish at General Drakkisath in Upper Blackrock Spire.", "Barrow Deeps and Hyjal Summit have no attunement." },
+      sources = {
+        {
+          name = "Icy Veins",
+          url = "https://www.icy-veins.com/wow-forever/news/how-to-unlock-onyxias-lair-in-wow-forever-ready-for-december-9/",
+        },
+      },
+      images = {
+        {
+          file = "news\\s880a67fc92-1",
+          credit = "Icy Veins",
+        },
+      },
+    },
     {
       id = "s0ef96f7d11",
       time = 1795749476,
@@ -411,52 +453,6 @@ AzerothAfterDarkNews = {
         {
           file = "news\\s3402ff0c44-3",
           credit = "Wowhead",
-        },
-      },
-    },
-    {
-      id = "s5637b1beb5",
-      time = 1795545602,
-      category = "Guides",
-      headline = "How to summon Lyn the Ignored, the secret City of Dalaran boss",
-      dek = "A tome quest that starts in Shadowfang Keep unlocks a hidden boss with its own loot in the City of Dalaran dungeon.",
-      body = { "The City of Dalaran dungeon has a hidden boss, Lyn the Ignored. Players spotted the empty boss room back in beta, and now the summoning steps have been worked out.", "It starts in Shadowfang Keep: beat Archmage Arugal, then grab the Black Tome from the book on his table. Take it to the keep in Ambermill, Silverpine Forest, and use it next to the glowing blue Ambermill Leyline Focus to turn it into the Tome of Dalaran.", "In the City of Dalaran, defeat Atrexis the Grave Knight and keep going through the sewer, heading straight instead of turning right toward the surface. Use the tome on the purple rune at the end, sit through a bit of roleplay, and Lyn shows up." },
-      bullets = { "Loot the Black Tome after killing Archmage Arugal in Shadowfang Keep.", "Convert it at the Ambermill Leyline Focus in Silverpine Forest.", "Use the Tome of Dalaran on the purple rune past Atrexis the Grave Knight.", "Possible drops: Bonepile Gaze, Tendonscraper Dagger and Cartilage Shapers." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/theres-a-secret-boss-in-the-city-of-dalaran-dungeon-heres-how-to-find-it-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s5637b1beb5-1",
-          credit = "Icy Veins",
-        },
-        {
-          file = "news\\s5637b1beb5-2",
-          credit = "Icy Veins",
-        },
-      },
-    },
-    {
-      id = "s2020b3173d",
-      time = 1795544087,
-      category = "Guides",
-      headline = "Deadmines axe Rockslicer lets you mine ore without Mining",
-      dek = "A rare drop from Rhahk'Zor gathers 30 ore nodes with no profession or pick, handy for leveling crafters.",
-      body = { "Here's a fun one from the Deadmines. Rhahk'Zor can drop the Rockslicer, a rare level 18 two-handed axe that lets you mine Copper, Tin, Silver and Iron without the Mining skill or a Mining Pick in your bags.", "The effect has 30 charges, so you get 30 nodes in total. It only gathers raw ore, and you still need Mining to smelt it. You also need a class that can use axes.", "There's a handy tell: if Rhahk'Zor is visibly carrying the axe during the fight, it's dropping that run. It binds on pickup, so you can't buy it on the Auction House." },
-      bullets = { "Rare two-handed axe from Rhahk'Zor in the Deadmines, requires level 18.", "Mines Copper, Tin, Silver and Iron, 30 charges total.", "52-78 damage, +7 Strength, +7 Nature Resistance, Bind on Pickup.", "If the boss holds the axe in the fight, it will drop." },
-      sources = {
-        {
-          name = "Icy Veins",
-          url = "https://www.icy-veins.com/wow-forever/news/this-hidden-weapon-lets-you-mine-ore-without-the-mining-profession-in-wow-forever/",
-        },
-      },
-      images = {
-        {
-          file = "news\\s2020b3173d-1",
-          credit = "Icy Veins",
         },
       },
     },
